@@ -1,0 +1,1032 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		141AAF69C8F70AFF56E204B8 /* libPods-THSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 655EF5D5A18442D61A0BAC59 /* libPods-THSTests.a */; };
+		3E260B3521755D33004D831B /* Girl's Basketball.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E260B3421755D33004D831B /* Girl's Basketball.swift */; };
+		3E260B3721755D50004D831B /* Boy's Basketball.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E260B3621755D50004D831B /* Boy's Basketball.swift */; };
+		3E260B3921755D7E004D831B /* Wrestling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E260B3821755D7E004D831B /* Wrestling.swift */; };
+		3E260B3D21756038004D831B /* Girl's Swimming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E260B3C21756038004D831B /* Girl's Swimming.swift */; };
+		3E260B3F21756076004D831B /* Boy's Swimming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E260B3E21756076004D831B /* Boy's Swimming.swift */; };
+		3E2CAD5620C56CF700A436EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2CAD5520C56CF700A436EC /* AppDelegate.swift */; };
+		3E2CAD5820C56CF700A436EC /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2CAD5720C56CF700A436EC /* Home.swift */; };
+		3E2CAD5A20C56CF700A436EC /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2CAD5920C56CF700A436EC /* Events.swift */; };
+		3E2CAD5D20C56CF700A436EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E2CAD5B20C56CF700A436EC /* Main.storyboard */; };
+		3E2CAD6220C56CF800A436EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E2CAD6020C56CF800A436EC /* LaunchScreen.storyboard */; };
+		3E2CAD6D20C56CF800A436EC /* THSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2CAD6C20C56CF800A436EC /* THSTests.swift */; };
+		3E2CAD7820C56CF800A436EC /* THSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2CAD7720C56CF800A436EC /* THSUITests.swift */; };
+		3E2CAD8A20C57AC800A436EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E2CAD8920C57AC800A436EC /* Images.xcassets */; };
+		3E34206B20D05F8D002828FA /* Golf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E34206A20D05F8D002828FA /* Golf.swift */; };
+		3E3576B82139C3C600CE8BF0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E3576B72139C3C600CE8BF0 /* GoogleService-Info.plist */; };
+		3E3576C0213ACF0C00CE8BF0 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3576BF213ACF0C00CE8BF0 /* NotificationService.swift */; };
+		3E3576C4213ACF0C00CE8BF0 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3E3576BD213ACF0C00CE8BF0 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3E5F05DB20DBE900007F6D0C /* admin_view_turos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5F05DA20DBE900007F6D0C /* admin_view_turos.swift */; };
+		3E5F05DD20DBE91B007F6D0C /* admin_add_tutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5F05DC20DBE91B007F6D0C /* admin_add_tutor.swift */; };
+		3E865E3120D936BB00BC4743 /* Admin_announcements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E865E3020D936BB00BC4743 /* Admin_announcements.swift */; };
+		3E865E3320D93FBF00BC4743 /* Admin_sports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E865E3220D93FBF00BC4743 /* Admin_sports.swift */; };
+		3E865E3520D945E800BC4743 /* Admin_Dr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E865E3420D945E800BC4743 /* Admin_Dr.swift */; };
+		3E8D4F2420C5874600844F3D /* Announcements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8D4F2320C5874600844F3D /* Announcements.swift */; };
+		3E8D4F2620C5876C00844F3D /* Sports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8D4F2520C5876C00844F3D /* Sports.swift */; };
+		3E8D4F2820C5879500844F3D /* Guidance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8D4F2720C5879500844F3D /* Guidance.swift */; };
+		3E8D4F2A20C587A300844F3D /* Tutoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8D4F2920C587A300844F3D /* Tutoring.swift */; };
+		3E8D4F2C20C587BD00844F3D /* Forms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8D4F2B20C587BD00844F3D /* Forms.swift */; };
+		3E8D4F2E20C5881600844F3D /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8D4F2D20C5881600844F3D /* Settings.swift */; };
+		3E8D511420DAF09000A14932 /* register_tutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8D511320DAF09000A14932 /* register_tutor.swift */; };
+		3E9EFF7D21120EA3005CF1B1 /* School_map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9EFF7C21120EA3005CF1B1 /* School_map.swift */; };
+		3E9EFF7F21124CA6005CF1B1 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9EFF7E21124CA6005CF1B1 /* Schedule.swift */; };
+		3EB0F62322024B4100F3092A /* two_hour_dealy_schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB0F62222024B4100F3092A /* two_hour_dealy_schedule.swift */; };
+		3EC658DB20D08C3100E6C545 /* Tennis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC658DA20D08C3100E6C545 /* Tennis.swift */; };
+		3EC658DD20D08C4600E6C545 /* Boy's Soccer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC658DC20D08C4600E6C545 /* Boy's Soccer.swift */; };
+		3EC658DF20D08C6200E6C545 /* Girl's Soccer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC658DE20D08C6200E6C545 /* Girl's Soccer.swift */; };
+		3EC658E120D08C7500E6C545 /* Volley Ball.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC658E020D08C7500E6C545 /* Volley Ball.swift */; };
+		3EC658E320D08C8C00E6C545 /* Football.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC658E220D08C8C00E6C545 /* Football.swift */; };
+		3EC658E520D08CB700E6C545 /* Boy's CC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC658E420D08CB700E6C545 /* Boy's CC.swift */; };
+		3EC658E720D08CCC00E6C545 /* Girl's CC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC658E620D08CCC00E6C545 /* Girl's CC.swift */; };
+		3ECB90D520D72A0D004E6DAF /* view_tutors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECB90D420D72A0D004E6DAF /* view_tutors.swift */; };
+		3EFEC88D20D5D99E00EC2A8E /* Admin_login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFEC88C20D5D99E00EC2A8E /* Admin_login.swift */; };
+		3EFEC88F20D5DA5400EC2A8E /* Admin_layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFEC88E20D5DA5400EC2A8E /* Admin_layout.swift */; };
+		3EFEC89120D68F1F00EC2A8E /* Admin_events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFEC89020D68F1F00EC2A8E /* Admin_events.swift */; };
+		A648535EE2FF38F59877B11D /* libPods-THS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2801792899AFB818419F0A82 /* libPods-THS.a */; settings = {ATTRIBUTES = (Required, ); }; };
+		BFF439956E30FB4FCDFC6E54 /* libPods-THSUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF2EC4026920FC9FF9877D0 /* libPods-THSUITests.a */; };
+		D403FAB1ADE1728AF6FA7988 /* libPods-THS-OneSignalNotificationServiceExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3890D8B39A1993C8435F0D65 /* libPods-THS-OneSignalNotificationServiceExtension.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E2CAD6920C56CF800A436EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E2CAD4A20C56CF700A436EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E2CAD5120C56CF700A436EC;
+			remoteInfo = THS;
+		};
+		3E2CAD7420C56CF800A436EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E2CAD4A20C56CF700A436EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E2CAD5120C56CF700A436EC;
+			remoteInfo = THS;
+		};
+		3E3576C2213ACF0C00CE8BF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E2CAD4A20C56CF700A436EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E3576BC213ACF0C00CE8BF0;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3E3576C8213ACF0C00CE8BF0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3E3576C4213ACF0C00CE8BF0 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0A1B17D7DB2D2BBEE2C38C18 /* Pods-THS-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THS-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-THS-OneSignalNotificationServiceExtension/Pods-THS-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		24C54C2BFD863DA873997EB8 /* Pods-THSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-THSTests/Pods-THSTests.release.xcconfig"; sourceTree = "<group>"; };
+		2786D19B0F28DBE3427B5330 /* Pods-THS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THS.release.xcconfig"; path = "Pods/Target Support Files/Pods-THS/Pods-THS.release.xcconfig"; sourceTree = "<group>"; };
+		2801792899AFB818419F0A82 /* libPods-THS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-THS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31249B1E8A58CC29796C2424 /* Pods-THS-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THS-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-THS-OneSignalNotificationServiceExtension/Pods-THS-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		3890D8B39A1993C8435F0D65 /* libPods-THS-OneSignalNotificationServiceExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-THS-OneSignalNotificationServiceExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF49B23BFBEB17E48D8B1BD /* Pods-THS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-THS/Pods-THS.debug.xcconfig"; sourceTree = "<group>"; };
+		3E260B3421755D33004D831B /* Girl's Basketball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Girl's Basketball.swift"; sourceTree = "<group>"; };
+		3E260B3621755D50004D831B /* Boy's Basketball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Boy's Basketball.swift"; sourceTree = "<group>"; };
+		3E260B3821755D7E004D831B /* Wrestling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wrestling.swift; sourceTree = "<group>"; };
+		3E260B3C21756038004D831B /* Girl's Swimming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Girl's Swimming.swift"; sourceTree = "<group>"; };
+		3E260B3E21756076004D831B /* Boy's Swimming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Boy's Swimming.swift"; sourceTree = "<group>"; };
+		3E2CAD5220C56CF700A436EC /* THS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E2CAD5520C56CF700A436EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3E2CAD5720C56CF700A436EC /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		3E2CAD5920C56CF700A436EC /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		3E2CAD5C20C56CF700A436EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E2CAD6120C56CF800A436EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E2CAD6320C56CF800A436EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E2CAD6820C56CF800A436EC /* THSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = THSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E2CAD6C20C56CF800A436EC /* THSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THSTests.swift; sourceTree = "<group>"; };
+		3E2CAD6E20C56CF800A436EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E2CAD7320C56CF800A436EC /* THSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = THSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E2CAD7720C56CF800A436EC /* THSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THSUITests.swift; sourceTree = "<group>"; };
+		3E2CAD7920C56CF800A436EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E2CAD8920C57AC800A436EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3E34206A20D05F8D002828FA /* Golf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Golf.swift; sourceTree = "<group>"; };
+		3E3576B72139C3C600CE8BF0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3E3576BD213ACF0C00CE8BF0 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E3576BF213ACF0C00CE8BF0 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		3E3576C1213ACF0C00CE8BF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E5F05DA20DBE900007F6D0C /* admin_view_turos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = admin_view_turos.swift; sourceTree = "<group>"; };
+		3E5F05DC20DBE91B007F6D0C /* admin_add_tutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = admin_add_tutor.swift; sourceTree = "<group>"; };
+		3E6B919D213AD222000DDDCF /* OneSignalNotificationServiceExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OneSignalNotificationServiceExtension.entitlements; sourceTree = "<group>"; };
+		3E865E3020D936BB00BC4743 /* Admin_announcements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Admin_announcements.swift; sourceTree = "<group>"; };
+		3E865E3220D93FBF00BC4743 /* Admin_sports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Admin_sports.swift; sourceTree = "<group>"; };
+		3E865E3420D945E800BC4743 /* Admin_Dr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Admin_Dr.swift; sourceTree = "<group>"; };
+		3E8D4F2320C5874600844F3D /* Announcements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Announcements.swift; sourceTree = "<group>"; };
+		3E8D4F2520C5876C00844F3D /* Sports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sports.swift; sourceTree = "<group>"; };
+		3E8D4F2720C5879500844F3D /* Guidance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guidance.swift; sourceTree = "<group>"; };
+		3E8D4F2920C587A300844F3D /* Tutoring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutoring.swift; sourceTree = "<group>"; };
+		3E8D4F2B20C587BD00844F3D /* Forms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forms.swift; sourceTree = "<group>"; };
+		3E8D4F2D20C5881600844F3D /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		3E8D511320DAF09000A14932 /* register_tutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = register_tutor.swift; sourceTree = "<group>"; };
+		3E9EFF7C21120EA3005CF1B1 /* School_map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School_map.swift; sourceTree = "<group>"; };
+		3E9EFF7E21124CA6005CF1B1 /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		3EB0F62222024B4100F3092A /* two_hour_dealy_schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = two_hour_dealy_schedule.swift; sourceTree = "<group>"; };
+		3EC658DA20D08C3100E6C545 /* Tennis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tennis.swift; sourceTree = "<group>"; };
+		3EC658DC20D08C4600E6C545 /* Boy's Soccer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Boy's Soccer.swift"; sourceTree = "<group>"; };
+		3EC658DE20D08C6200E6C545 /* Girl's Soccer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Girl's Soccer.swift"; sourceTree = "<group>"; };
+		3EC658E020D08C7500E6C545 /* Volley Ball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Volley Ball.swift"; sourceTree = "<group>"; };
+		3EC658E220D08C8C00E6C545 /* Football.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Football.swift; sourceTree = "<group>"; };
+		3EC658E420D08CB700E6C545 /* Boy's CC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Boy's CC.swift"; sourceTree = "<group>"; };
+		3EC658E620D08CCC00E6C545 /* Girl's CC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Girl's CC.swift"; sourceTree = "<group>"; };
+		3ECB90D420D72A0D004E6DAF /* view_tutors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = view_tutors.swift; sourceTree = "<group>"; };
+		3ED28662213872B600694E94 /* THS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = THS.entitlements; sourceTree = "<group>"; };
+		3EFEC88C20D5D99E00EC2A8E /* Admin_login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Admin_login.swift; sourceTree = "<group>"; };
+		3EFEC88E20D5DA5400EC2A8E /* Admin_layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Admin_layout.swift; sourceTree = "<group>"; };
+		3EFEC89020D68F1F00EC2A8E /* Admin_events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Admin_events.swift; sourceTree = "<group>"; };
+		655EF5D5A18442D61A0BAC59 /* libPods-THSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-THSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC69E90864310AFC70D9E33F /* Pods-THSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-THSTests/Pods-THSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C657301F547603BF9E47ECD7 /* Pods-THSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-THSUITests/Pods-THSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CDF2EC4026920FC9FF9877D0 /* libPods-THSUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-THSUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D684C98A740AD86815B9105A /* Pods-THSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-THSUITests/Pods-THSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E2CAD4F20C56CF700A436EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A648535EE2FF38F59877B11D /* libPods-THS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E2CAD6520C56CF800A436EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				141AAF69C8F70AFF56E204B8 /* libPods-THSTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E2CAD7020C56CF800A436EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF439956E30FB4FCDFC6E54 /* libPods-THSUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E3576BA213ACF0C00CE8BF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D403FAB1ADE1728AF6FA7988 /* libPods-THS-OneSignalNotificationServiceExtension.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E2CAD4920C56CF700A436EC = {
+			isa = PBXGroup;
+			children = (
+				3E2CAD5420C56CF700A436EC /* THS */,
+				3E2CAD6B20C56CF800A436EC /* THSTests */,
+				3E2CAD7620C56CF800A436EC /* THSUITests */,
+				3E3576BE213ACF0C00CE8BF0 /* OneSignalNotificationServiceExtension */,
+				3E2CAD5320C56CF700A436EC /* Products */,
+				6DB8087AE79B63C98AA05CA2 /* Frameworks */,
+				5992C850695D41E08E5C3FC3 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		3E2CAD5320C56CF700A436EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E2CAD5220C56CF700A436EC /* THS.app */,
+				3E2CAD6820C56CF800A436EC /* THSTests.xctest */,
+				3E2CAD7320C56CF800A436EC /* THSUITests.xctest */,
+				3E3576BD213ACF0C00CE8BF0 /* OneSignalNotificationServiceExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E2CAD5420C56CF700A436EC /* THS */ = {
+			isa = PBXGroup;
+			children = (
+				3ED28662213872B600694E94 /* THS.entitlements */,
+				3E2CAD5520C56CF700A436EC /* AppDelegate.swift */,
+				3E2CAD5720C56CF700A436EC /* Home.swift */,
+				3EB0F62222024B4100F3092A /* two_hour_dealy_schedule.swift */,
+				3E865E3020D936BB00BC4743 /* Admin_announcements.swift */,
+				3E865E3420D945E800BC4743 /* Admin_Dr.swift */,
+				3E5F05DA20DBE900007F6D0C /* admin_view_turos.swift */,
+				3E2CAD5920C56CF700A436EC /* Events.swift */,
+				3E5F05DC20DBE91B007F6D0C /* admin_add_tutor.swift */,
+				3EFEC88E20D5DA5400EC2A8E /* Admin_layout.swift */,
+				3EFEC88C20D5D99E00EC2A8E /* Admin_login.swift */,
+				3E8D4F2320C5874600844F3D /* Announcements.swift */,
+				3E865E3220D93FBF00BC4743 /* Admin_sports.swift */,
+				3EFEC89020D68F1F00EC2A8E /* Admin_events.swift */,
+				3E8D511320DAF09000A14932 /* register_tutor.swift */,
+				3ECB90D420D72A0D004E6DAF /* view_tutors.swift */,
+				3E8D4F2520C5876C00844F3D /* Sports.swift */,
+				3E9EFF7C21120EA3005CF1B1 /* School_map.swift */,
+				3E9EFF7E21124CA6005CF1B1 /* Schedule.swift */,
+				3E8D4F2720C5879500844F3D /* Guidance.swift */,
+				3E8D4F2920C587A300844F3D /* Tutoring.swift */,
+				3E8D4F2B20C587BD00844F3D /* Forms.swift */,
+				3E8D4F2D20C5881600844F3D /* Settings.swift */,
+				3ED5006A20D19D6400558E44 /* Sports */,
+				3E2CAD5B20C56CF700A436EC /* Main.storyboard */,
+				3E2CAD6020C56CF800A436EC /* LaunchScreen.storyboard */,
+				3E3576B72139C3C600CE8BF0 /* GoogleService-Info.plist */,
+				3E2CAD6320C56CF800A436EC /* Info.plist */,
+				3E2CAD8920C57AC800A436EC /* Images.xcassets */,
+			);
+			path = THS;
+			sourceTree = "<group>";
+		};
+		3E2CAD6B20C56CF800A436EC /* THSTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E2CAD6C20C56CF800A436EC /* THSTests.swift */,
+				3E2CAD6E20C56CF800A436EC /* Info.plist */,
+			);
+			path = THSTests;
+			sourceTree = "<group>";
+		};
+		3E2CAD7620C56CF800A436EC /* THSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3E2CAD7720C56CF800A436EC /* THSUITests.swift */,
+				3E2CAD7920C56CF800A436EC /* Info.plist */,
+			);
+			path = THSUITests;
+			sourceTree = "<group>";
+		};
+		3E3576BE213ACF0C00CE8BF0 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				3E6B919D213AD222000DDDCF /* OneSignalNotificationServiceExtension.entitlements */,
+				3E3576BF213ACF0C00CE8BF0 /* NotificationService.swift */,
+				3E3576C1213ACF0C00CE8BF0 /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		3ED5006A20D19D6400558E44 /* Sports */ = {
+			isa = PBXGroup;
+			children = (
+				3EC658E620D08CCC00E6C545 /* Girl's CC.swift */,
+				3EC658E420D08CB700E6C545 /* Boy's CC.swift */,
+				3EC658E220D08C8C00E6C545 /* Football.swift */,
+				3EC658E020D08C7500E6C545 /* Volley Ball.swift */,
+				3EC658DE20D08C6200E6C545 /* Girl's Soccer.swift */,
+				3EC658DC20D08C4600E6C545 /* Boy's Soccer.swift */,
+				3E34206A20D05F8D002828FA /* Golf.swift */,
+				3EC658DA20D08C3100E6C545 /* Tennis.swift */,
+				3E260B3821755D7E004D831B /* Wrestling.swift */,
+				3E260B3421755D33004D831B /* Girl's Basketball.swift */,
+				3E260B3621755D50004D831B /* Boy's Basketball.swift */,
+				3E260B3C21756038004D831B /* Girl's Swimming.swift */,
+				3E260B3E21756076004D831B /* Boy's Swimming.swift */,
+			);
+			path = Sports;
+			sourceTree = "<group>";
+		};
+		5992C850695D41E08E5C3FC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CF49B23BFBEB17E48D8B1BD /* Pods-THS.debug.xcconfig */,
+				2786D19B0F28DBE3427B5330 /* Pods-THS.release.xcconfig */,
+				AC69E90864310AFC70D9E33F /* Pods-THSTests.debug.xcconfig */,
+				24C54C2BFD863DA873997EB8 /* Pods-THSTests.release.xcconfig */,
+				D684C98A740AD86815B9105A /* Pods-THSUITests.debug.xcconfig */,
+				C657301F547603BF9E47ECD7 /* Pods-THSUITests.release.xcconfig */,
+				0A1B17D7DB2D2BBEE2C38C18 /* Pods-THS-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				31249B1E8A58CC29796C2424 /* Pods-THS-OneSignalNotificationServiceExtension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6DB8087AE79B63C98AA05CA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2801792899AFB818419F0A82 /* libPods-THS.a */,
+				655EF5D5A18442D61A0BAC59 /* libPods-THSTests.a */,
+				CDF2EC4026920FC9FF9877D0 /* libPods-THSUITests.a */,
+				3890D8B39A1993C8435F0D65 /* libPods-THS-OneSignalNotificationServiceExtension.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E2CAD5120C56CF700A436EC /* THS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E2CAD7C20C56CF800A436EC /* Build configuration list for PBXNativeTarget "THS" */;
+			buildPhases = (
+				8607A09F32F9A6E3D24CA037 /* [CP] Check Pods Manifest.lock */,
+				3E2CAD4E20C56CF700A436EC /* Sources */,
+				3E2CAD4F20C56CF700A436EC /* Frameworks */,
+				3E2CAD5020C56CF700A436EC /* Resources */,
+				3E3576C8213ACF0C00CE8BF0 /* Embed App Extensions */,
+				DD095FF8EB35B59C02133EF2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E3576C3213ACF0C00CE8BF0 /* PBXTargetDependency */,
+			);
+			name = THS;
+			productName = THS;
+			productReference = 3E2CAD5220C56CF700A436EC /* THS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E2CAD6720C56CF800A436EC /* THSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E2CAD7F20C56CF800A436EC /* Build configuration list for PBXNativeTarget "THSTests" */;
+			buildPhases = (
+				8F0CFD2615D3681FC23F55A7 /* [CP] Check Pods Manifest.lock */,
+				3E2CAD6420C56CF800A436EC /* Sources */,
+				3E2CAD6520C56CF800A436EC /* Frameworks */,
+				3E2CAD6620C56CF800A436EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E2CAD6A20C56CF800A436EC /* PBXTargetDependency */,
+			);
+			name = THSTests;
+			productName = THSTests;
+			productReference = 3E2CAD6820C56CF800A436EC /* THSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3E2CAD7220C56CF800A436EC /* THSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E2CAD8220C56CF800A436EC /* Build configuration list for PBXNativeTarget "THSUITests" */;
+			buildPhases = (
+				A16219518DAC6FA071121CA6 /* [CP] Check Pods Manifest.lock */,
+				3E2CAD6F20C56CF800A436EC /* Sources */,
+				3E2CAD7020C56CF800A436EC /* Frameworks */,
+				3E2CAD7120C56CF800A436EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E2CAD7520C56CF800A436EC /* PBXTargetDependency */,
+			);
+			name = THSUITests;
+			productName = THSUITests;
+			productReference = 3E2CAD7320C56CF800A436EC /* THSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		3E3576BC213ACF0C00CE8BF0 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E3576C7213ACF0C00CE8BF0 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				D207FB473685287FD11F557C /* [CP] Check Pods Manifest.lock */,
+				3E3576B9213ACF0C00CE8BF0 /* Sources */,
+				3E3576BA213ACF0C00CE8BF0 /* Frameworks */,
+				3E3576BB213ACF0C00CE8BF0 /* Resources */,
+				4D701CBF729A0A98B340CC39 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 3E3576BD213ACF0C00CE8BF0 /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E2CAD4A20C56CF700A436EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Samuel Ford";
+				TargetAttributes = {
+					3E2CAD5120C56CF700A436EC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					3E2CAD6720C56CF800A436EC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3E2CAD5120C56CF700A436EC;
+					};
+					3E2CAD7220C56CF800A436EC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3E2CAD5120C56CF700A436EC;
+					};
+					3E3576BC213ACF0C00CE8BF0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 3E2CAD4D20C56CF700A436EC /* Build configuration list for PBXProject "THS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E2CAD4920C56CF700A436EC;
+			productRefGroup = 3E2CAD5320C56CF700A436EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E2CAD5120C56CF700A436EC /* THS */,
+				3E2CAD6720C56CF800A436EC /* THSTests */,
+				3E2CAD7220C56CF800A436EC /* THSUITests */,
+				3E3576BC213ACF0C00CE8BF0 /* OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E2CAD5020C56CF700A436EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E2CAD8A20C57AC800A436EC /* Images.xcassets in Resources */,
+				3E3576B82139C3C600CE8BF0 /* GoogleService-Info.plist in Resources */,
+				3E2CAD6220C56CF800A436EC /* LaunchScreen.storyboard in Resources */,
+				3E2CAD5D20C56CF700A436EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E2CAD6620C56CF800A436EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E2CAD7120C56CF800A436EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E3576BB213ACF0C00CE8BF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D701CBF729A0A98B340CC39 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-THS-OneSignalNotificationServiceExtension/Pods-THS-OneSignalNotificationServiceExtension-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInAppMessaging/InAppMessagingResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/InAppMessagingResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-THS-OneSignalNotificationServiceExtension/Pods-THS-OneSignalNotificationServiceExtension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8607A09F32F9A6E3D24CA037 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-THS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F0CFD2615D3681FC23F55A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-THSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A16219518DAC6FA071121CA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-THSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D207FB473685287FD11F557C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-THS-OneSignalNotificationServiceExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD095FF8EB35B59C02133EF2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-THS/Pods-THS-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInAppMessaging/InAppMessagingResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/InAppMessagingResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-THS/Pods-THS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E2CAD4E20C56CF700A436EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E5F05DB20DBE900007F6D0C /* admin_view_turos.swift in Sources */,
+				3E9EFF7F21124CA6005CF1B1 /* Schedule.swift in Sources */,
+				3E5F05DD20DBE91B007F6D0C /* admin_add_tutor.swift in Sources */,
+				3E865E3120D936BB00BC4743 /* Admin_announcements.swift in Sources */,
+				3EC658E320D08C8C00E6C545 /* Football.swift in Sources */,
+				3EC658DF20D08C6200E6C545 /* Girl's Soccer.swift in Sources */,
+				3E8D4F2420C5874600844F3D /* Announcements.swift in Sources */,
+				3EC658E520D08CB700E6C545 /* Boy's CC.swift in Sources */,
+				3EFEC88F20D5DA5400EC2A8E /* Admin_layout.swift in Sources */,
+				3E260B3921755D7E004D831B /* Wrestling.swift in Sources */,
+				3E260B3521755D33004D831B /* Girl's Basketball.swift in Sources */,
+				3E8D4F2A20C587A300844F3D /* Tutoring.swift in Sources */,
+				3E8D4F2820C5879500844F3D /* Guidance.swift in Sources */,
+				3E8D4F2620C5876C00844F3D /* Sports.swift in Sources */,
+				3E260B3721755D50004D831B /* Boy's Basketball.swift in Sources */,
+				3EC658DD20D08C4600E6C545 /* Boy's Soccer.swift in Sources */,
+				3E260B3F21756076004D831B /* Boy's Swimming.swift in Sources */,
+				3E9EFF7D21120EA3005CF1B1 /* School_map.swift in Sources */,
+				3E2CAD5A20C56CF700A436EC /* Events.swift in Sources */,
+				3EFEC89120D68F1F00EC2A8E /* Admin_events.swift in Sources */,
+				3E8D4F2C20C587BD00844F3D /* Forms.swift in Sources */,
+				3E8D511420DAF09000A14932 /* register_tutor.swift in Sources */,
+				3EC658DB20D08C3100E6C545 /* Tennis.swift in Sources */,
+				3E8D4F2E20C5881600844F3D /* Settings.swift in Sources */,
+				3E865E3320D93FBF00BC4743 /* Admin_sports.swift in Sources */,
+				3E865E3520D945E800BC4743 /* Admin_Dr.swift in Sources */,
+				3E34206B20D05F8D002828FA /* Golf.swift in Sources */,
+				3EC658E720D08CCC00E6C545 /* Girl's CC.swift in Sources */,
+				3E2CAD5620C56CF700A436EC /* AppDelegate.swift in Sources */,
+				3E260B3D21756038004D831B /* Girl's Swimming.swift in Sources */,
+				3ECB90D520D72A0D004E6DAF /* view_tutors.swift in Sources */,
+				3EB0F62322024B4100F3092A /* two_hour_dealy_schedule.swift in Sources */,
+				3EFEC88D20D5D99E00EC2A8E /* Admin_login.swift in Sources */,
+				3EC658E120D08C7500E6C545 /* Volley Ball.swift in Sources */,
+				3E2CAD5820C56CF700A436EC /* Home.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E2CAD6420C56CF800A436EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E2CAD6D20C56CF800A436EC /* THSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E2CAD6F20C56CF800A436EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E2CAD7820C56CF800A436EC /* THSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E3576B9213ACF0C00CE8BF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E3576C0213ACF0C00CE8BF0 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E2CAD6A20C56CF800A436EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E2CAD5120C56CF700A436EC /* THS */;
+			targetProxy = 3E2CAD6920C56CF800A436EC /* PBXContainerItemProxy */;
+		};
+		3E2CAD7520C56CF800A436EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E2CAD5120C56CF700A436EC /* THS */;
+			targetProxy = 3E2CAD7420C56CF800A436EC /* PBXContainerItemProxy */;
+		};
+		3E3576C3213ACF0C00CE8BF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E3576BC213ACF0C00CE8BF0 /* OneSignalNotificationServiceExtension */;
+			targetProxy = 3E3576C2213ACF0C00CE8BF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E2CAD5B20C56CF700A436EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E2CAD5C20C56CF700A436EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E2CAD6020C56CF800A436EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E2CAD6120C56CF800A436EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E2CAD7A20C56CF800A436EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3E2CAD7B20C56CF800A436EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E2CAD7D20C56CF800A436EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CF49B23BFBEB17E48D8B1BD /* Pods-THS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = THS/THS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TM27X9WQSC;
+				INFOPLIST_FILE = THS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = samuel123456.THS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E2CAD7E20C56CF800A436EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2786D19B0F28DBE3427B5330 /* Pods-THS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = THS/THS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TM27X9WQSC;
+				INFOPLIST_FILE = THS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = samuel123456.THS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3E2CAD8020C56CF800A436EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC69E90864310AFC70D9E33F /* Pods-THSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = THSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = samuel.THSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/THS.app/THS";
+			};
+			name = Debug;
+		};
+		3E2CAD8120C56CF800A436EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24C54C2BFD863DA873997EB8 /* Pods-THSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = THSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = samuel.THSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/THS.app/THS";
+			};
+			name = Release;
+		};
+		3E2CAD8320C56CF800A436EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D684C98A740AD86815B9105A /* Pods-THSUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = THSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = samuel.THSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = THS;
+			};
+			name = Debug;
+		};
+		3E2CAD8420C56CF800A436EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C657301F547603BF9E47ECD7 /* Pods-THSUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = THSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = samuel.THSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = THS;
+			};
+			name = Release;
+		};
+		3E3576C5213ACF0C00CE8BF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A1B17D7DB2D2BBEE2C38C18 /* Pods-THS-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TM27X9WQSC;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = samuel123456.THS.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E3576C6213ACF0C00CE8BF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31249B1E8A58CC29796C2424 /* Pods-THS-OneSignalNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TM27X9WQSC;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = samuel123456.THS.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E2CAD4D20C56CF700A436EC /* Build configuration list for PBXProject "THS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E2CAD7A20C56CF800A436EC /* Debug */,
+				3E2CAD7B20C56CF800A436EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E2CAD7C20C56CF800A436EC /* Build configuration list for PBXNativeTarget "THS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E2CAD7D20C56CF800A436EC /* Debug */,
+				3E2CAD7E20C56CF800A436EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E2CAD7F20C56CF800A436EC /* Build configuration list for PBXNativeTarget "THSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E2CAD8020C56CF800A436EC /* Debug */,
+				3E2CAD8120C56CF800A436EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E2CAD8220C56CF800A436EC /* Build configuration list for PBXNativeTarget "THSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E2CAD8320C56CF800A436EC /* Debug */,
+				3E2CAD8420C56CF800A436EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E3576C7213ACF0C00CE8BF0 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E3576C5213ACF0C00CE8BF0 /* Debug */,
+				3E3576C6213ACF0C00CE8BF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E2CAD4A20C56CF700A436EC /* Project object */;
+}
