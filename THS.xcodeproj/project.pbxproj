@@ -21,12 +21,20 @@
 		3E2CAD6D20C56CF800A436EC /* THSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2CAD6C20C56CF800A436EC /* THSTests.swift */; };
 		3E2CAD7820C56CF800A436EC /* THSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2CAD7720C56CF800A436EC /* THSUITests.swift */; };
 		3E2CAD8A20C57AC800A436EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E2CAD8920C57AC800A436EC /* Images.xcassets */; };
+		3E326565222E1C9600F8A7CD /* Boys_tf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E326564222E1C9600F8A7CD /* Boys_tf.swift */; };
+		3E326567222E1CA300F8A7CD /* Girls_tf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E326566222E1CA300F8A7CD /* Girls_tf.swift */; };
+		3E326569222E1CB300F8A7CD /* Baseball.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E326568222E1CB300F8A7CD /* Baseball.swift */; };
+		3E32656B222E1CBF00F8A7CD /* Softball.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E32656A222E1CBF00F8A7CD /* Softball.swift */; };
+		3E32656D222E1CFB00F8A7CD /* Girls_tennis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E32656C222E1CFB00F8A7CD /* Girls_tennis.swift */; };
+		3E32656F222E1D2100F8A7CD /* Boys_golf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E32656E222E1D2100F8A7CD /* Boys_golf.swift */; };
 		3E34206B20D05F8D002828FA /* Golf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E34206A20D05F8D002828FA /* Golf.swift */; };
 		3E3576B82139C3C600CE8BF0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E3576B72139C3C600CE8BF0 /* GoogleService-Info.plist */; };
 		3E3576C0213ACF0C00CE8BF0 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3576BF213ACF0C00CE8BF0 /* NotificationService.swift */; };
 		3E3576C4213ACF0C00CE8BF0 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3E3576BD213ACF0C00CE8BF0 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3E5F05DB20DBE900007F6D0C /* admin_view_turos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5F05DA20DBE900007F6D0C /* admin_view_turos.swift */; };
 		3E5F05DD20DBE91B007F6D0C /* admin_add_tutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5F05DC20DBE91B007F6D0C /* admin_add_tutor.swift */; };
+		3E7AB70923039F92000484AD /* VolleyBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7AB70823039F92000484AD /* VolleyBall.swift */; };
+		3E7AB70B2303A154000484AD /* Football.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7AB70A2303A154000484AD /* Football.swift */; };
 		3E865E3120D936BB00BC4743 /* Admin_announcements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E865E3020D936BB00BC4743 /* Admin_announcements.swift */; };
 		3E865E3320D93FBF00BC4743 /* Admin_sports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E865E3220D93FBF00BC4743 /* Admin_sports.swift */; };
 		3E865E3520D945E800BC4743 /* Admin_Dr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E865E3420D945E800BC4743 /* Admin_Dr.swift */; };
@@ -43,8 +51,6 @@
 		3EC658DB20D08C3100E6C545 /* Tennis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC658DA20D08C3100E6C545 /* Tennis.swift */; };
 		3EC658DD20D08C4600E6C545 /* Boy's Soccer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC658DC20D08C4600E6C545 /* Boy's Soccer.swift */; };
 		3EC658DF20D08C6200E6C545 /* Girl's Soccer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC658DE20D08C6200E6C545 /* Girl's Soccer.swift */; };
-		3EC658E120D08C7500E6C545 /* Volley Ball.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC658E020D08C7500E6C545 /* Volley Ball.swift */; };
-		3EC658E320D08C8C00E6C545 /* Football.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC658E220D08C8C00E6C545 /* Football.swift */; };
 		3EC658E520D08CB700E6C545 /* Boy's CC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC658E420D08CB700E6C545 /* Boy's CC.swift */; };
 		3EC658E720D08CCC00E6C545 /* Girl's CC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC658E620D08CCC00E6C545 /* Girl's CC.swift */; };
 		3ECB90D520D72A0D004E6DAF /* view_tutors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECB90D420D72A0D004E6DAF /* view_tutors.swift */; };
@@ -121,6 +127,12 @@
 		3E2CAD7720C56CF800A436EC /* THSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THSUITests.swift; sourceTree = "<group>"; };
 		3E2CAD7920C56CF800A436EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E2CAD8920C57AC800A436EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3E326564222E1C9600F8A7CD /* Boys_tf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boys_tf.swift; sourceTree = "<group>"; };
+		3E326566222E1CA300F8A7CD /* Girls_tf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Girls_tf.swift; sourceTree = "<group>"; };
+		3E326568222E1CB300F8A7CD /* Baseball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baseball.swift; sourceTree = "<group>"; };
+		3E32656A222E1CBF00F8A7CD /* Softball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Softball.swift; sourceTree = "<group>"; };
+		3E32656C222E1CFB00F8A7CD /* Girls_tennis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Girls_tennis.swift; sourceTree = "<group>"; };
+		3E32656E222E1D2100F8A7CD /* Boys_golf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boys_golf.swift; sourceTree = "<group>"; };
 		3E34206A20D05F8D002828FA /* Golf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Golf.swift; sourceTree = "<group>"; };
 		3E3576B72139C3C600CE8BF0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3E3576BD213ACF0C00CE8BF0 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,6 +141,8 @@
 		3E5F05DA20DBE900007F6D0C /* admin_view_turos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = admin_view_turos.swift; sourceTree = "<group>"; };
 		3E5F05DC20DBE91B007F6D0C /* admin_add_tutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = admin_add_tutor.swift; sourceTree = "<group>"; };
 		3E6B919D213AD222000DDDCF /* OneSignalNotificationServiceExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OneSignalNotificationServiceExtension.entitlements; sourceTree = "<group>"; };
+		3E7AB70823039F92000484AD /* VolleyBall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolleyBall.swift; sourceTree = "<group>"; };
+		3E7AB70A2303A154000484AD /* Football.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Football.swift; sourceTree = "<group>"; };
 		3E865E3020D936BB00BC4743 /* Admin_announcements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Admin_announcements.swift; sourceTree = "<group>"; };
 		3E865E3220D93FBF00BC4743 /* Admin_sports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Admin_sports.swift; sourceTree = "<group>"; };
 		3E865E3420D945E800BC4743 /* Admin_Dr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Admin_Dr.swift; sourceTree = "<group>"; };
@@ -145,8 +159,6 @@
 		3EC658DA20D08C3100E6C545 /* Tennis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tennis.swift; sourceTree = "<group>"; };
 		3EC658DC20D08C4600E6C545 /* Boy's Soccer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Boy's Soccer.swift"; sourceTree = "<group>"; };
 		3EC658DE20D08C6200E6C545 /* Girl's Soccer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Girl's Soccer.swift"; sourceTree = "<group>"; };
-		3EC658E020D08C7500E6C545 /* Volley Ball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Volley Ball.swift"; sourceTree = "<group>"; };
-		3EC658E220D08C8C00E6C545 /* Football.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Football.swift; sourceTree = "<group>"; };
 		3EC658E420D08CB700E6C545 /* Boy's CC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Boy's CC.swift"; sourceTree = "<group>"; };
 		3EC658E620D08CCC00E6C545 /* Girl's CC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Girl's CC.swift"; sourceTree = "<group>"; };
 		3ECB90D420D72A0D004E6DAF /* view_tutors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = view_tutors.swift; sourceTree = "<group>"; };
@@ -275,6 +287,46 @@
 			path = THSUITests;
 			sourceTree = "<group>";
 		};
+		3E326561222E1C1C00F8A7CD /* Fall */ = {
+			isa = PBXGroup;
+			children = (
+				3EC658E620D08CCC00E6C545 /* Girl's CC.swift */,
+				3EC658E420D08CB700E6C545 /* Boy's CC.swift */,
+				3E7AB70A2303A154000484AD /* Football.swift */,
+				3EC658DE20D08C6200E6C545 /* Girl's Soccer.swift */,
+				3E7AB70823039F92000484AD /* VolleyBall.swift */,
+				3EC658DC20D08C4600E6C545 /* Boy's Soccer.swift */,
+				3E34206A20D05F8D002828FA /* Golf.swift */,
+				3EC658DA20D08C3100E6C545 /* Tennis.swift */,
+			);
+			path = Fall;
+			sourceTree = "<group>";
+		};
+		3E326562222E1C2800F8A7CD /* Winter */ = {
+			isa = PBXGroup;
+			children = (
+				3E260B3E21756076004D831B /* Boy's Swimming.swift */,
+				3E260B3C21756038004D831B /* Girl's Swimming.swift */,
+				3E260B3621755D50004D831B /* Boy's Basketball.swift */,
+				3E260B3421755D33004D831B /* Girl's Basketball.swift */,
+				3E260B3821755D7E004D831B /* Wrestling.swift */,
+			);
+			path = Winter;
+			sourceTree = "<group>";
+		};
+		3E326563222E1C3000F8A7CD /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				3E326564222E1C9600F8A7CD /* Boys_tf.swift */,
+				3E326566222E1CA300F8A7CD /* Girls_tf.swift */,
+				3E326568222E1CB300F8A7CD /* Baseball.swift */,
+				3E32656C222E1CFB00F8A7CD /* Girls_tennis.swift */,
+				3E32656E222E1D2100F8A7CD /* Boys_golf.swift */,
+				3E32656A222E1CBF00F8A7CD /* Softball.swift */,
+			);
+			path = Spring;
+			sourceTree = "<group>";
+		};
 		3E3576BE213ACF0C00CE8BF0 /* OneSignalNotificationServiceExtension */ = {
 			isa = PBXGroup;
 			children = (
@@ -288,19 +340,9 @@
 		3ED5006A20D19D6400558E44 /* Sports */ = {
 			isa = PBXGroup;
 			children = (
-				3EC658E620D08CCC00E6C545 /* Girl's CC.swift */,
-				3EC658E420D08CB700E6C545 /* Boy's CC.swift */,
-				3EC658E220D08C8C00E6C545 /* Football.swift */,
-				3EC658E020D08C7500E6C545 /* Volley Ball.swift */,
-				3EC658DE20D08C6200E6C545 /* Girl's Soccer.swift */,
-				3EC658DC20D08C4600E6C545 /* Boy's Soccer.swift */,
-				3E34206A20D05F8D002828FA /* Golf.swift */,
-				3EC658DA20D08C3100E6C545 /* Tennis.swift */,
-				3E260B3821755D7E004D831B /* Wrestling.swift */,
-				3E260B3421755D33004D831B /* Girl's Basketball.swift */,
-				3E260B3621755D50004D831B /* Boy's Basketball.swift */,
-				3E260B3C21756038004D831B /* Girl's Swimming.swift */,
-				3E260B3E21756076004D831B /* Boy's Swimming.swift */,
+				3E326561222E1C1C00F8A7CD /* Fall */,
+				3E326562222E1C2800F8A7CD /* Winter */,
+				3E326563222E1C3000F8A7CD /* Spring */,
 			);
 			path = Sports;
 			sourceTree = "<group>";
@@ -418,12 +460,16 @@
 		3E2CAD4A20C56CF700A436EC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					leftR1,
+				);
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Samuel Ford";
 				TargetAttributes = {
 					3E2CAD5120C56CF700A436EC = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
@@ -436,16 +482,19 @@
 					};
 					3E2CAD6720C56CF800A436EC = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 3E2CAD5120C56CF700A436EC;
 					};
 					3E2CAD7220C56CF800A436EC = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 3E2CAD5120C56CF700A436EC;
 					};
 					3E3576BC213ACF0C00CE8BF0 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Push = {
@@ -627,13 +676,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E32656B222E1CBF00F8A7CD /* Softball.swift in Sources */,
 				3E5F05DB20DBE900007F6D0C /* admin_view_turos.swift in Sources */,
 				3E9EFF7F21124CA6005CF1B1 /* Schedule.swift in Sources */,
 				3E5F05DD20DBE91B007F6D0C /* admin_add_tutor.swift in Sources */,
 				3E865E3120D936BB00BC4743 /* Admin_announcements.swift in Sources */,
-				3EC658E320D08C8C00E6C545 /* Football.swift in Sources */,
+				3E32656D222E1CFB00F8A7CD /* Girls_tennis.swift in Sources */,
+				3E7AB70B2303A154000484AD /* Football.swift in Sources */,
 				3EC658DF20D08C6200E6C545 /* Girl's Soccer.swift in Sources */,
 				3E8D4F2420C5874600844F3D /* Announcements.swift in Sources */,
+				3E7AB70923039F92000484AD /* VolleyBall.swift in Sources */,
 				3EC658E520D08CB700E6C545 /* Boy's CC.swift in Sources */,
 				3EFEC88F20D5DA5400EC2A8E /* Admin_layout.swift in Sources */,
 				3E260B3921755D7E004D831B /* Wrestling.swift in Sources */,
@@ -649,10 +701,14 @@
 				3EFEC89120D68F1F00EC2A8E /* Admin_events.swift in Sources */,
 				3E8D4F2C20C587BD00844F3D /* Forms.swift in Sources */,
 				3E8D511420DAF09000A14932 /* register_tutor.swift in Sources */,
+				3E326565222E1C9600F8A7CD /* Boys_tf.swift in Sources */,
+				3E326569222E1CB300F8A7CD /* Baseball.swift in Sources */,
 				3EC658DB20D08C3100E6C545 /* Tennis.swift in Sources */,
 				3E8D4F2E20C5881600844F3D /* Settings.swift in Sources */,
 				3E865E3320D93FBF00BC4743 /* Admin_sports.swift in Sources */,
 				3E865E3520D945E800BC4743 /* Admin_Dr.swift in Sources */,
+				3E32656F222E1D2100F8A7CD /* Boys_golf.swift in Sources */,
+				3E326567222E1CA300F8A7CD /* Girls_tf.swift in Sources */,
 				3E34206B20D05F8D002828FA /* Golf.swift in Sources */,
 				3EC658E720D08CCC00E6C545 /* Girl's CC.swift in Sources */,
 				3E2CAD5620C56CF700A436EC /* AppDelegate.swift in Sources */,
@@ -660,7 +716,6 @@
 				3ECB90D520D72A0D004E6DAF /* view_tutors.swift in Sources */,
 				3EB0F62322024B4100F3092A /* two_hour_dealy_schedule.swift in Sources */,
 				3EFEC88D20D5D99E00EC2A8E /* Admin_login.swift in Sources */,
-				3EC658E120D08C7500E6C545 /* Volley Ball.swift in Sources */,
 				3E2CAD5820C56CF700A436EC /* Home.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -743,6 +798,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -750,6 +806,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -800,6 +857,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -807,6 +865,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -844,13 +903,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = THS/THS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 13;
 				DEVELOPMENT_TEAM = TM27X9WQSC;
 				INFOPLIST_FILE = THS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.9;
 				PRODUCT_BUNDLE_IDENTIFIER = samuel123456.THS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -863,13 +924,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = THS/THS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 13;
 				DEVELOPMENT_TEAM = TM27X9WQSC;
 				INFOPLIST_FILE = THS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.9;
 				PRODUCT_BUNDLE_IDENTIFIER = samuel123456.THS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -885,7 +948,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = samuel.THSTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/THS.app/THS";
 			};
@@ -902,7 +965,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = samuel.THSTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/THS.app/THS";
 			};
@@ -918,7 +981,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = samuel.THSUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = THS;
 			};
@@ -934,7 +997,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = samuel.THSUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = THS;
 			};
@@ -947,14 +1010,16 @@
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 13;
 				DEVELOPMENT_TEAM = TM27X9WQSC;
 				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.9;
 				PRODUCT_BUNDLE_IDENTIFIER = samuel123456.THS.OneSignalNotificationServiceExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -966,14 +1031,16 @@
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 13;
 				DEVELOPMENT_TEAM = TM27X9WQSC;
 				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.9;
 				PRODUCT_BUNDLE_IDENTIFIER = samuel123456.THS.OneSignalNotificationServiceExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

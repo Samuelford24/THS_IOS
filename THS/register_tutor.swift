@@ -29,8 +29,8 @@ ref=Database.database().reference()
         let teach1 = teach.text!
         let application = ("Name: \(String(describing: name1)), Grade: \(String(describing: grade1)), Courses: \(String(describing: courses1)), Tutor: \(String(describing: teach1))")
         ref?.child("Tutor_sign_up").childByAutoId().setValue(application)
-        let ac = UIAlertController(title: "Thank you for signing up!", message: nil, preferredStyle: UIAlertControllerStyle.alert)
-        let OKaction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: { action in
+        let ac = UIAlertController(title: "Thank you for signing up!", message: nil, preferredStyle: UIAlertController.Style.alert)
+        let OKaction = UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: { action in
             self.dismiss(animated: true, completion: nil)
             
         })

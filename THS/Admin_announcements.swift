@@ -29,8 +29,8 @@ ref = Database.database().reference()
     @IBAction func send_announcements(_ sender: Any) {
         let announce = announcement_text.text
         ref?.child("Announcements").childByAutoId().setValue(announce)
-        let ac = UIAlertController(title: "Succesfully uploaded", message: nil, preferredStyle: UIAlertControllerStyle.alert)
-        let OKaction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: { action in
+        let ac = UIAlertController(title: "Succesfully uploaded", message: nil, preferredStyle: UIAlertController.Style.alert)
+        let OKaction = UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: { action in
             self.dismiss(animated: true, completion: nil)
             
             })

@@ -14,7 +14,7 @@ class Schedule: UIViewController {
     
     @IBAction func download_schedule(_ sender: Any) {
         
-        let imageData = UIImagePNGRepresentation(sch.image!)
+        let imageData = sch.image!.pngData()
         let compresedImage = UIImage(data: imageData!)
         UIImageWriteToSavedPhotosAlbum(compresedImage!, nil, nil, nil)
         

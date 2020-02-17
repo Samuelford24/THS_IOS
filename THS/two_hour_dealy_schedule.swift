@@ -17,7 +17,7 @@ class two_hour_dealy_schedule: UIViewController {
         // Do any additional setup after loading the view.
     }
     @IBAction func download_THD(_ sender: Any) {
-        let imageData = UIImagePNGRepresentation(two_h_dealy.image!)
+        let imageData = two_h_dealy.image!.pngData()
         let compresedImage = UIImage(data: imageData!)
         UIImageWriteToSavedPhotosAlbum(compresedImage!, nil, nil, nil)
         

@@ -12,7 +12,7 @@ class Guidance: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     
     
-let counselors = ["Ms.Jones (A-Ca)", "Mrs.Alsman (Cb-F)","Mrs.Trench (G-Ke)", "Mrs.Compton (Kf-N)", "Mrs.Tracy (O-SI)","Mr.Waugh (Sm-z)","Mr.Burks (College Connections Coach)", "Mrs.Callahan (JAG)"]
+let counselors = ["Mrs.Harden (A-Cl)", "Mr.Harden (Co-G)","Mrs.Trench (H-L)", "Mrs.Compton (M-Ri)", "Mrs.Tracy (Ro-Sn)","Mr.Waugh (So-Z)", "Mrs.Callahan (JAG)"]
     @IBOutlet weak var tableview_guidance: UITableView!
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return counselors.count
@@ -25,13 +25,13 @@ let counselors = ["Ms.Jones (A-Ca)", "Mrs.Alsman (Cb-F)","Mrs.Trench (G-Ke)", "M
         return cell
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let ac = UIAlertController(title: "Sign up to see  \(counselors[indexPath.row])?", message: nil, preferredStyle: UIAlertControllerStyle.alert)
-        let OKaction = UIAlertAction(title: "Yes", style: UIAlertActionStyle.default, handler: { action in
+        let ac = UIAlertController(title: "Sign up to see  \(counselors[indexPath.row])?", message: nil, preferredStyle: UIAlertController.Style.alert)
+        let OKaction = UIAlertAction(title: "Yes", style: UIAlertAction.Style.default, handler: { action in
             if let url = URL(string: "https://docs.google.com/forms/d/e/1FAIpQLSePsqIw9Rz0kNAt-89dTBVmx93MP0xMPt7Xcbw-DwWJ1-0KSA/viewform") {
                 UIApplication.shared.open(url, options: [:])
         }
             })
-            let NOaction = UIAlertAction(title:"No", style: UIAlertActionStyle.default, handler:{ action in
+            let NOaction = UIAlertAction(title:"No", style: UIAlertAction.Style.default, handler:{ action in
                 self.dismiss(animated: true, completion: nil)               })
         
             

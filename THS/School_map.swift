@@ -12,7 +12,7 @@ class School_map: UIViewController {
     @IBOutlet weak var school_map: UIImageView!
     
     @IBAction func save(_ sender: Any) {
-        let imageData = UIImagePNGRepresentation(school_map.image!)
+        let imageData = school_map.image!.pngData()
         let compresedImage = UIImage(data: imageData!)
         UIImageWriteToSavedPhotosAlbum(compresedImage!, nil, nil, nil)
         

@@ -21,8 +21,8 @@ ref = Database.database().reference()
     @IBAction func send_football(_ sender: Any) {
         let football = sports_text.text
         ref?.child("Football").childByAutoId().setValue(football)
-        let ac = UIAlertController(title: "Succesfully uploaded", message: nil, preferredStyle: UIAlertControllerStyle.alert)
-        let OKaction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: { action in
+        let ac = UIAlertController(title: "Succesfully uploaded", message: nil, preferredStyle: UIAlertController.Style.alert)
+        let OKaction = UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: { action in
             self.dismiss(animated: true, completion: nil)
         
     })
@@ -33,8 +33,8 @@ ref = Database.database().reference()
     @IBAction func send_golf(_ sender: Any) {
         let golf = sports_text.text
         ref?.child("Girls_golf").childByAutoId().setValue(golf)
-        let ac = UIAlertController(title: "Succesfully uploaded", message: nil, preferredStyle: UIAlertControllerStyle.alert)
-        let OKaction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: { action in
+        let ac = UIAlertController(title: "Succesfully uploaded", message: nil, preferredStyle: UIAlertController.Style.alert)
+        let OKaction = UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: { action in
             self.dismiss(animated: true, completion: nil)
         })
         ac.addAction(OKaction)
@@ -43,8 +43,8 @@ ref = Database.database().reference()
     @IBAction func send_bsoccer(_ sender: Any) {
         let bs = sports_text.text
         ref?.child("Boys_soccer").childByAutoId().setValue(bs)
-        let ac = UIAlertController(title: "Succesfully uploaded", message: nil, preferredStyle: UIAlertControllerStyle.alert)
-        let OKaction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: { action in
+        let ac = UIAlertController(title: "Succesfully uploaded", message: nil, preferredStyle: UIAlertController.Style.alert)
+        let OKaction = UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: { action in
             self.dismiss(animated: true, completion: nil)
         })
         ac.addAction(OKaction)
@@ -53,8 +53,8 @@ ref = Database.database().reference()
     @IBAction func send_gsoccer(_ sender: Any) {
         let gs = sports_text.text
         ref?.child("Girls_soccer").childByAutoId().setValue(gs)
-        let ac = UIAlertController(title: "Succesfully uploaded", message: nil, preferredStyle: UIAlertControllerStyle.alert)
-        let OKaction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: { action in
+        let ac = UIAlertController(title: "Succesfully uploaded", message: nil, preferredStyle: UIAlertController.Style.alert)
+        let OKaction = UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: { action in
             self.dismiss(animated: true, completion: nil)
         })
         ac.addAction(OKaction)
@@ -63,8 +63,8 @@ ref = Database.database().reference()
     @IBAction func send_bcc(_ sender: Any) {
         let bcc = sports_text.text
         ref?.child("Boys_cross-country").childByAutoId().setValue(bcc)
-        let ac = UIAlertController(title: "Succesfully uploaded", message: nil, preferredStyle: UIAlertControllerStyle.alert)
-        let OKaction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: { action in
+        let ac = UIAlertController(title: "Succesfully uploaded", message: nil, preferredStyle: UIAlertController.Style.alert)
+        let OKaction = UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: { action in
             self.dismiss(animated: true, completion: nil)
         })
         ac.addAction(OKaction)
@@ -73,8 +73,8 @@ ref = Database.database().reference()
     @IBAction func send_gcc(_ sender: Any) {
         let gcc = sports_text.text
         ref?.child("Girls_cross-country").childByAutoId().setValue(gcc)
-        let ac = UIAlertController(title: "Succesfully uploaded", message: nil, preferredStyle: UIAlertControllerStyle.alert)
-        let OKaction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: { action in
+        let ac = UIAlertController(title: "Succesfully uploaded", message: nil, preferredStyle: UIAlertController.Style.alert)
+        let OKaction = UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: { action in
             self.dismiss(animated: true, completion: nil)
         })
         ac.addAction(OKaction)
@@ -83,8 +83,8 @@ ref = Database.database().reference()
     @IBAction func send_vb(_ sender: Any) {
         let volleyball = sports_text.text
         ref?.child("Girls_volleyball").childByAutoId().setValue(volleyball)
-        let ac = UIAlertController(title: "Succesfully uploaded", message: nil, preferredStyle: UIAlertControllerStyle.alert)
-        let OKaction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: { action in
+        let ac = UIAlertController(title: "Succesfully uploaded", message: nil, preferredStyle: UIAlertController.Style.alert)
+        let OKaction = UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: { action in
             self.dismiss(animated: true, completion: nil)
         
         })
@@ -94,8 +94,8 @@ ref = Database.database().reference()
     @IBAction func send_tennis(_ sender: Any) {
         let tennis = sports_text.text
         ref?.child("Boys_tennis").childByAutoId().setValue(tennis)
-        let ac = UIAlertController(title: "Succesfully uploaded", message: nil, preferredStyle: UIAlertControllerStyle.alert)
-        let OKaction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: { action in
+        let ac = UIAlertController(title: "Succesfully uploaded", message: nil, preferredStyle: UIAlertController.Style.alert)
+        let OKaction = UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: { action in
             self.dismiss(animated: true, completion: nil)
     })
         ac.addAction(OKaction)

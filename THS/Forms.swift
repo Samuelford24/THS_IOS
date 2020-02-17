@@ -7,18 +7,19 @@
 //
 
 import UIKit
+import Firebase
 
 class Forms: UIViewController {
 
     
     @IBAction func Physical_form(_ sender: Any) {
-        let ac = UIAlertController(title: "Go to Physical Form?", message: nil, preferredStyle: UIAlertControllerStyle.alert)
-        let OKaction = UIAlertAction(title: "Yes", style: UIAlertActionStyle.default, handler: { action in
-            if let url = URL(string: "https://s3-us-west-2.amazonaws.com/sportshub2-uploads-prod/files/sites/966/2018/05/15183822/18-19-Physical.pdf") {
+        let ac = UIAlertController(title: "Go to Physical Form?", message: nil, preferredStyle: UIAlertController.Style.alert)
+        let OKaction = UIAlertAction(title: "Yes", style: UIAlertAction.Style.default, handler: { action in
+            if let url = URL(string: "http://metadot.vigoschools.org/public/19-20%20Physical.pdf") {
                 UIApplication.shared.open(url, options: [:])
             }
         })
-        let NOaction = UIAlertAction(title:"No", style: UIAlertActionStyle.default, handler:{ action in
+        let NOaction = UIAlertAction(title:"No", style: UIAlertAction.Style.default, handler:{ action in
             self.dismiss(animated: true, completion: nil)               })
         
         
@@ -28,6 +29,48 @@ class Forms: UIViewController {
         present(ac, animated: true, completion: nil)
         
     }
+   /* @IBAction func clubs(_ sender: Any) {
+        Database.database().reference().child("Clubs").observe(.childAdded, with: { (snapshot) in
+            print(snapshot)
+             let dictionary = snapshot.value as? String
+            print(dictionary!)
+                if (dictionary == "clubs"){
+                    let ac = UIAlertController(title: "Clubs", message: "Would you like to sign up for clubs?", preferredStyle: UIAlertController.Style.alert)
+                    let OKaction = UIAlertAction(title: "Yes", style: UIAlertAction.Style.default, handler: { action in
+                        if let url = URL(string: "") {
+                            UIApplication.shared.open(url, options: [:])
+                        }
+                    })
+                    let NOaction = UIAlertAction(title:"No", style: UIAlertAction.Style.default, handler:{ action in
+                        self.dismiss(animated: true, completion: nil)               })
+                    
+                    
+                    
+                    ac.addAction(OKaction)
+                    ac.addAction(NOaction)
+                    self.present(ac, animated: true, completion: nil)
+
+                    
+                }
+                else if(dictionary == "noclubs"){
+                    let ac = UIAlertController(title: "Clubs", message:
+                        "You can not sign up for clubs at this time", preferredStyle: UIAlertController.Style.alert)
+                    let OKaction = UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: { action in
+                           self.dismiss(animated: true, completion: nil)
+                    })
+                  
+                    
+                    
+                    
+                    ac.addAction(OKaction)
+                    self.present(ac, animated: true, completion: nil)
+                    
+                    
+                    
+                }
+    
+        })
+    }*/
     override func viewDidLoad() {
         super.viewDidLoad()
 

@@ -11,8 +11,8 @@ import UIKit
 class Settings: UIViewController {
     
     @IBAction func questions(_ sender: Any) {
-         let ac = UIAlertController(title: "Email us at svhsdev@vigoschools.org", message: nil, preferredStyle: UIAlertControllerStyle.alert)
-         let OKaction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: { action in
+         let ac = UIAlertController(title: "Email us at svhsdev@vigoschools.org", message: nil, preferredStyle: UIAlertController.Style.alert)
+         let OKaction = UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: { action in
              self.dismiss(animated: true, completion: nil)
     
     })
@@ -26,8 +26,8 @@ class Settings: UIViewController {
     }
     }
     @IBAction func experience(_ sender: Any) {
-        let ac = UIAlertController(title: "Email us at svhsdev@vigoschools.org", message: nil, preferredStyle: UIAlertControllerStyle.alert)
-        let OKaction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: { action in
+        let ac = UIAlertController(title: "Email us at svhsdev@vigoschools.org", message: nil, preferredStyle: UIAlertController.Style.alert)
+        let OKaction = UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: { action in
             self.dismiss(animated: true, completion: nil)
             
         })

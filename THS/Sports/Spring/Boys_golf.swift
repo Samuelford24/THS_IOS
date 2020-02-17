@@ -1,33 +1,32 @@
 //
-//  Volley Ball.swift
+//  Boys_golf.swift
 //  THS
 //
-//  Created by Samuel Ford on 6/12/18.
-//  Copyright © 2018 Samuel Ford. All rights reserved.
+//  Created by Samuel Ford on 3/4/19.
+//  Copyright © 2019 Samuel Ford. All rights reserved.
 //
-/*
+
 import UIKit
 import Firebase
-
-class Volley_Ball: UIViewController,UITableViewDataSource, UITableViewDelegate {
-   
+class Boys_golf: UIViewController, UITableViewDataSource, UITableViewDelegate {
     var array = [String]()
-    @IBOutlet weak var tableview_volleyball: UITableView!
-   
     
+    @IBOutlet weak var tableview_boys_golf: UITableView!
     var ref : DatabaseReference!
     var handle: DatabaseHandle!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        // Do any additional setup after loading the view.
         ref = Database.database().reference()
-        handle = ref?.child("Girls_volleyball").observe(.childAdded, with: { (snapshot) in
+        handle = ref?.child("Bowling").observe(.childAdded, with: { (snapshot) in
             if let item = snapshot.value as? String {
                 self.array.append(item)
-                self.tableview_volleyball.reloadData()
-                let bottomOffset = CGPoint(x: 0, y: self.tableview_volleyball.contentSize.height - self.tableview_volleyball.frame.size.height)
-                self.tableview_volleyball.setContentOffset(bottomOffset, animated: false)
+                self.tableview_boys_golf.reloadData()
+                // let bottomOffset = CGPoint(x: 0, y: self.tableview_gball.contentSize.height - self.tableview_gball.frame.size.height)
+                // self.tableview_gball.setContentOffset(bottomOffset, animated: false)
             }
             
         })
@@ -40,7 +39,7 @@ class Volley_Ball: UIViewController,UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableview_volleyball.dequeueReusableCell(withIdentifier: "volleyball_cell")! as UITableViewCell
+        let cell = tableview_boys_golf.dequeueReusableCell(withIdentifier: "cell_boys_golf")! as UITableViewCell
         cell.textLabel?.text = array[indexPath.row]
         cell.textLabel?.numberOfLines = 0
         return cell
@@ -49,9 +48,4 @@ class Volley_Ball: UIViewController,UITableViewDataSource, UITableViewDelegate {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    @IBAction func back_volleyball(_ sender: Any) {
-         self.performSegue(withIdentifier: "seque_volleyball", sender: nil)
-    }
 }
-
-*/

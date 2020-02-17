@@ -57,8 +57,8 @@ class Admin_login: UIViewController {
             
     }
             else {
-                let ac = UIAlertController(title: "Login Failed!!", message: nil, preferredStyle: UIAlertControllerStyle.alert)
-                let OKaction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: { action in
+                let ac = UIAlertController(title: "Login Failed!!", message: nil, preferredStyle: UIAlertController.Style.alert)
+                let OKaction = UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: { action in
                     self.dismiss(animated: true, completion: nil)
                     
                 })

@@ -31,8 +31,8 @@ ref=Database.database().reference()
     @IBAction func sendtofirebase(_ sender: Any) {
         let event = event_text.text
 ref?.child("Events").childByAutoId().setValue(event)
-        let ac = UIAlertController(title: "Succesfully uploaded", message: nil, preferredStyle: UIAlertControllerStyle.alert)
-        let OKaction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: { action in
+        let ac = UIAlertController(title: "Succesfully uploaded", message: nil, preferredStyle: UIAlertController.Style.alert)
+        let OKaction = UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: { action in
             self.dismiss(animated: true, completion: nil)
             
         })
