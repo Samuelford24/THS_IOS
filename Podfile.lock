@@ -69,7 +69,7 @@ DEPENDENCIES:
   - OneSignal (< 3.0, >= 2.6.2)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - Firebase
     - FirebaseAnalytics
     - FirebaseCore
@@ -97,4 +97,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: cb6b3d93fe86ae3ce017aa2ab320d8ca7e74ec8b
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.9.3

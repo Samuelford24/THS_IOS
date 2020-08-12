@@ -28,11 +28,8 @@
 		3E32656D222E1CFB00F8A7CD /* Girls_tennis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E32656C222E1CFB00F8A7CD /* Girls_tennis.swift */; };
 		3E32656F222E1D2100F8A7CD /* Boys_golf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E32656E222E1D2100F8A7CD /* Boys_golf.swift */; };
 		3E34206B20D05F8D002828FA /* Golf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E34206A20D05F8D002828FA /* Golf.swift */; };
-		3E3576B82139C3C600CE8BF0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E3576B72139C3C600CE8BF0 /* GoogleService-Info.plist */; };
 		3E3576C0213ACF0C00CE8BF0 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3576BF213ACF0C00CE8BF0 /* NotificationService.swift */; };
 		3E3576C4213ACF0C00CE8BF0 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3E3576BD213ACF0C00CE8BF0 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		3E5F05DB20DBE900007F6D0C /* admin_view_turos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5F05DA20DBE900007F6D0C /* admin_view_turos.swift */; };
-		3E5F05DD20DBE91B007F6D0C /* admin_add_tutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5F05DC20DBE91B007F6D0C /* admin_add_tutor.swift */; };
 		3E7AB70923039F92000484AD /* VolleyBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7AB70823039F92000484AD /* VolleyBall.swift */; };
 		3E7AB70B2303A154000484AD /* Football.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7AB70A2303A154000484AD /* Football.swift */; };
 		3E865E3120D936BB00BC4743 /* Admin_announcements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E865E3020D936BB00BC4743 /* Admin_announcements.swift */; };
@@ -41,10 +38,8 @@
 		3E8D4F2420C5874600844F3D /* Announcements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8D4F2320C5874600844F3D /* Announcements.swift */; };
 		3E8D4F2620C5876C00844F3D /* Sports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8D4F2520C5876C00844F3D /* Sports.swift */; };
 		3E8D4F2820C5879500844F3D /* Guidance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8D4F2720C5879500844F3D /* Guidance.swift */; };
-		3E8D4F2A20C587A300844F3D /* Tutoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8D4F2920C587A300844F3D /* Tutoring.swift */; };
 		3E8D4F2C20C587BD00844F3D /* Forms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8D4F2B20C587BD00844F3D /* Forms.swift */; };
 		3E8D4F2E20C5881600844F3D /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8D4F2D20C5881600844F3D /* Settings.swift */; };
-		3E8D511420DAF09000A14932 /* register_tutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8D511320DAF09000A14932 /* register_tutor.swift */; };
 		3E9EFF7D21120EA3005CF1B1 /* School_map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9EFF7C21120EA3005CF1B1 /* School_map.swift */; };
 		3E9EFF7F21124CA6005CF1B1 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9EFF7E21124CA6005CF1B1 /* Schedule.swift */; };
 		3EB0F62322024B4100F3092A /* two_hour_dealy_schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB0F62222024B4100F3092A /* two_hour_dealy_schedule.swift */; };
@@ -53,13 +48,29 @@
 		3EC658DF20D08C6200E6C545 /* Girl's Soccer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC658DE20D08C6200E6C545 /* Girl's Soccer.swift */; };
 		3EC658E520D08CB700E6C545 /* Boy's CC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC658E420D08CB700E6C545 /* Boy's CC.swift */; };
 		3EC658E720D08CCC00E6C545 /* Girl's CC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC658E620D08CCC00E6C545 /* Girl's CC.swift */; };
-		3ECB90D520D72A0D004E6DAF /* view_tutors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECB90D420D72A0D004E6DAF /* view_tutors.swift */; };
 		3EFEC88D20D5D99E00EC2A8E /* Admin_login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFEC88C20D5D99E00EC2A8E /* Admin_login.swift */; };
 		3EFEC88F20D5DA5400EC2A8E /* Admin_layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFEC88E20D5DA5400EC2A8E /* Admin_layout.swift */; };
 		3EFEC89120D68F1F00EC2A8E /* Admin_events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFEC89020D68F1F00EC2A8E /* Admin_events.swift */; };
 		A648535EE2FF38F59877B11D /* libPods-THS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2801792899AFB818419F0A82 /* libPods-THS.a */; settings = {ATTRIBUTES = (Required, ); }; };
 		BFF439956E30FB4FCDFC6E54 /* libPods-THSUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF2EC4026920FC9FF9877D0 /* libPods-THSUITests.a */; };
 		D403FAB1ADE1728AF6FA7988 /* libPods-THS-OneSignalNotificationServiceExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3890D8B39A1993C8435F0D65 /* libPods-THS-OneSignalNotificationServiceExtension.a */; };
+		F5913DDD24D4C3D8000BA628 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5913DDC24D4C3D7000BA628 /* GoogleService-Info.plist */; };
+		F5AD15ED24D3B264000EBD0F /* Pods-THSTests.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = AC69E90864310AFC70D9E33F /* Pods-THSTests.debug.xcconfig */; };
+		F5AD15EE24D3B267000EBD0F /* Pods-THS.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3CF49B23BFBEB17E48D8B1BD /* Pods-THS.debug.xcconfig */; };
+		F5AD15EF24D3B26A000EBD0F /* Pods-THS.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2786D19B0F28DBE3427B5330 /* Pods-THS.release.xcconfig */; };
+		F5AD15F024D3B277000EBD0F /* Pods-THS.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2786D19B0F28DBE3427B5330 /* Pods-THS.release.xcconfig */; };
+		F5AD15F124D3B27A000EBD0F /* Pods-THS.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3CF49B23BFBEB17E48D8B1BD /* Pods-THS.debug.xcconfig */; };
+		F5AD15F224D3B280000EBD0F /* Pods-THSTests.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = AC69E90864310AFC70D9E33F /* Pods-THSTests.debug.xcconfig */; };
+		F5AD15F324D3B283000EBD0F /* Pods-THSTests.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 24C54C2BFD863DA873997EB8 /* Pods-THSTests.release.xcconfig */; };
+		F5AD15F424D3B283000EBD0F /* Pods-THSTests.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 24C54C2BFD863DA873997EB8 /* Pods-THSTests.release.xcconfig */; };
+		F5AD15F524D3B286000EBD0F /* Pods-THSUITests.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = D684C98A740AD86815B9105A /* Pods-THSUITests.debug.xcconfig */; };
+		F5AD15F624D3B288000EBD0F /* Pods-THSUITests.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = D684C98A740AD86815B9105A /* Pods-THSUITests.debug.xcconfig */; };
+		F5AD15F724D3B28B000EBD0F /* Pods-THSUITests.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C657301F547603BF9E47ECD7 /* Pods-THSUITests.release.xcconfig */; };
+		F5AD15F824D3B28C000EBD0F /* Pods-THSUITests.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C657301F547603BF9E47ECD7 /* Pods-THSUITests.release.xcconfig */; };
+		F5AD15F924D3B28F000EBD0F /* Pods-THS-OneSignalNotificationServiceExtension.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 0A1B17D7DB2D2BBEE2C38C18 /* Pods-THS-OneSignalNotificationServiceExtension.debug.xcconfig */; };
+		F5AD15FA24D3B292000EBD0F /* Pods-THS-OneSignalNotificationServiceExtension.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 31249B1E8A58CC29796C2424 /* Pods-THS-OneSignalNotificationServiceExtension.release.xcconfig */; };
+		F5AD15FB24D3B292000EBD0F /* Pods-THS-OneSignalNotificationServiceExtension.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 31249B1E8A58CC29796C2424 /* Pods-THS-OneSignalNotificationServiceExtension.release.xcconfig */; };
+		F5AE0C4924D39BD2007EB848 /* Pods-THS-OneSignalNotificationServiceExtension.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 0A1B17D7DB2D2BBEE2C38C18 /* Pods-THS-OneSignalNotificationServiceExtension.debug.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -134,12 +145,9 @@
 		3E32656C222E1CFB00F8A7CD /* Girls_tennis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Girls_tennis.swift; sourceTree = "<group>"; };
 		3E32656E222E1D2100F8A7CD /* Boys_golf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boys_golf.swift; sourceTree = "<group>"; };
 		3E34206A20D05F8D002828FA /* Golf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Golf.swift; sourceTree = "<group>"; };
-		3E3576B72139C3C600CE8BF0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3E3576BD213ACF0C00CE8BF0 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E3576BF213ACF0C00CE8BF0 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		3E3576C1213ACF0C00CE8BF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3E5F05DA20DBE900007F6D0C /* admin_view_turos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = admin_view_turos.swift; sourceTree = "<group>"; };
-		3E5F05DC20DBE91B007F6D0C /* admin_add_tutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = admin_add_tutor.swift; sourceTree = "<group>"; };
 		3E6B919D213AD222000DDDCF /* OneSignalNotificationServiceExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OneSignalNotificationServiceExtension.entitlements; sourceTree = "<group>"; };
 		3E7AB70823039F92000484AD /* VolleyBall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolleyBall.swift; sourceTree = "<group>"; };
 		3E7AB70A2303A154000484AD /* Football.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Football.swift; sourceTree = "<group>"; };
@@ -149,10 +157,8 @@
 		3E8D4F2320C5874600844F3D /* Announcements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Announcements.swift; sourceTree = "<group>"; };
 		3E8D4F2520C5876C00844F3D /* Sports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sports.swift; sourceTree = "<group>"; };
 		3E8D4F2720C5879500844F3D /* Guidance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guidance.swift; sourceTree = "<group>"; };
-		3E8D4F2920C587A300844F3D /* Tutoring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutoring.swift; sourceTree = "<group>"; };
 		3E8D4F2B20C587BD00844F3D /* Forms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forms.swift; sourceTree = "<group>"; };
 		3E8D4F2D20C5881600844F3D /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
-		3E8D511320DAF09000A14932 /* register_tutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = register_tutor.swift; sourceTree = "<group>"; };
 		3E9EFF7C21120EA3005CF1B1 /* School_map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School_map.swift; sourceTree = "<group>"; };
 		3E9EFF7E21124CA6005CF1B1 /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
 		3EB0F62222024B4100F3092A /* two_hour_dealy_schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = two_hour_dealy_schedule.swift; sourceTree = "<group>"; };
@@ -161,7 +167,6 @@
 		3EC658DE20D08C6200E6C545 /* Girl's Soccer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Girl's Soccer.swift"; sourceTree = "<group>"; };
 		3EC658E420D08CB700E6C545 /* Boy's CC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Boy's CC.swift"; sourceTree = "<group>"; };
 		3EC658E620D08CCC00E6C545 /* Girl's CC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Girl's CC.swift"; sourceTree = "<group>"; };
-		3ECB90D420D72A0D004E6DAF /* view_tutors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = view_tutors.swift; sourceTree = "<group>"; };
 		3ED28662213872B600694E94 /* THS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = THS.entitlements; sourceTree = "<group>"; };
 		3EFEC88C20D5D99E00EC2A8E /* Admin_login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Admin_login.swift; sourceTree = "<group>"; };
 		3EFEC88E20D5DA5400EC2A8E /* Admin_layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Admin_layout.swift; sourceTree = "<group>"; };
@@ -171,6 +176,7 @@
 		C657301F547603BF9E47ECD7 /* Pods-THSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-THSUITests/Pods-THSUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CDF2EC4026920FC9FF9877D0 /* libPods-THSUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-THSUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D684C98A740AD86815B9105A /* Pods-THSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-THSUITests/Pods-THSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5913DDC24D4C3D7000BA628 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,27 +248,22 @@
 				3EB0F62222024B4100F3092A /* two_hour_dealy_schedule.swift */,
 				3E865E3020D936BB00BC4743 /* Admin_announcements.swift */,
 				3E865E3420D945E800BC4743 /* Admin_Dr.swift */,
-				3E5F05DA20DBE900007F6D0C /* admin_view_turos.swift */,
 				3E2CAD5920C56CF700A436EC /* Events.swift */,
-				3E5F05DC20DBE91B007F6D0C /* admin_add_tutor.swift */,
 				3EFEC88E20D5DA5400EC2A8E /* Admin_layout.swift */,
 				3EFEC88C20D5D99E00EC2A8E /* Admin_login.swift */,
 				3E8D4F2320C5874600844F3D /* Announcements.swift */,
 				3E865E3220D93FBF00BC4743 /* Admin_sports.swift */,
 				3EFEC89020D68F1F00EC2A8E /* Admin_events.swift */,
-				3E8D511320DAF09000A14932 /* register_tutor.swift */,
-				3ECB90D420D72A0D004E6DAF /* view_tutors.swift */,
 				3E8D4F2520C5876C00844F3D /* Sports.swift */,
 				3E9EFF7C21120EA3005CF1B1 /* School_map.swift */,
 				3E9EFF7E21124CA6005CF1B1 /* Schedule.swift */,
 				3E8D4F2720C5879500844F3D /* Guidance.swift */,
-				3E8D4F2920C587A300844F3D /* Tutoring.swift */,
 				3E8D4F2B20C587BD00844F3D /* Forms.swift */,
 				3E8D4F2D20C5881600844F3D /* Settings.swift */,
 				3ED5006A20D19D6400558E44 /* Sports */,
 				3E2CAD5B20C56CF700A436EC /* Main.storyboard */,
+				F5913DDC24D4C3D7000BA628 /* GoogleService-Info.plist */,
 				3E2CAD6020C56CF800A436EC /* LaunchScreen.storyboard */,
-				3E3576B72139C3C600CE8BF0 /* GoogleService-Info.plist */,
 				3E2CAD6320C56CF800A436EC /* Info.plist */,
 				3E2CAD8920C57AC800A436EC /* Images.xcassets */,
 			);
@@ -530,8 +531,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5AD15F724D3B28B000EBD0F /* Pods-THSUITests.release.xcconfig in Resources */,
+				F5AD15ED24D3B264000EBD0F /* Pods-THSTests.debug.xcconfig in Resources */,
+				F5AD15F524D3B286000EBD0F /* Pods-THSUITests.debug.xcconfig in Resources */,
+				F5AD15F424D3B283000EBD0F /* Pods-THSTests.release.xcconfig in Resources */,
+				F5AD15EE24D3B267000EBD0F /* Pods-THS.debug.xcconfig in Resources */,
+				F5913DDD24D4C3D8000BA628 /* GoogleService-Info.plist in Resources */,
 				3E2CAD8A20C57AC800A436EC /* Images.xcassets in Resources */,
-				3E3576B82139C3C600CE8BF0 /* GoogleService-Info.plist in Resources */,
+				F5AD15EF24D3B26A000EBD0F /* Pods-THS.release.xcconfig in Resources */,
+				F5AD15F924D3B28F000EBD0F /* Pods-THS-OneSignalNotificationServiceExtension.debug.xcconfig in Resources */,
+				F5AD15FA24D3B292000EBD0F /* Pods-THS-OneSignalNotificationServiceExtension.release.xcconfig in Resources */,
 				3E2CAD6220C56CF800A436EC /* LaunchScreen.storyboard in Resources */,
 				3E2CAD5D20C56CF700A436EC /* Main.storyboard in Resources */,
 			);
@@ -555,6 +564,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5AE0C4924D39BD2007EB848 /* Pods-THS-OneSignalNotificationServiceExtension.debug.xcconfig in Resources */,
+				F5AD15FB24D3B292000EBD0F /* Pods-THS-OneSignalNotificationServiceExtension.release.xcconfig in Resources */,
+				F5AD15F624D3B288000EBD0F /* Pods-THSUITests.debug.xcconfig in Resources */,
+				F5AD15F224D3B280000EBD0F /* Pods-THSTests.debug.xcconfig in Resources */,
+				F5AD15F824D3B28C000EBD0F /* Pods-THSUITests.release.xcconfig in Resources */,
+				F5AD15F124D3B27A000EBD0F /* Pods-THS.debug.xcconfig in Resources */,
+				F5AD15F324D3B283000EBD0F /* Pods-THSTests.release.xcconfig in Resources */,
+				F5AD15F024D3B277000EBD0F /* Pods-THS.release.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -567,7 +584,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-THS-OneSignalNotificationServiceExtension/Pods-THS-OneSignalNotificationServiceExtension-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-THS-OneSignalNotificationServiceExtension/Pods-THS-OneSignalNotificationServiceExtension-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInAppMessaging/InAppMessagingResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -576,7 +593,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-THS-OneSignalNotificationServiceExtension/Pods-THS-OneSignalNotificationServiceExtension-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-THS-OneSignalNotificationServiceExtension/Pods-THS-OneSignalNotificationServiceExtension-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8607A09F32F9A6E3D24CA037 /* [CP] Check Pods Manifest.lock */ = {
@@ -657,7 +674,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-THS/Pods-THS-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-THS/Pods-THS-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInAppMessaging/InAppMessagingResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -666,7 +683,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-THS/Pods-THS-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-THS/Pods-THS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -677,9 +694,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E32656B222E1CBF00F8A7CD /* Softball.swift in Sources */,
-				3E5F05DB20DBE900007F6D0C /* admin_view_turos.swift in Sources */,
 				3E9EFF7F21124CA6005CF1B1 /* Schedule.swift in Sources */,
-				3E5F05DD20DBE91B007F6D0C /* admin_add_tutor.swift in Sources */,
 				3E865E3120D936BB00BC4743 /* Admin_announcements.swift in Sources */,
 				3E32656D222E1CFB00F8A7CD /* Girls_tennis.swift in Sources */,
 				3E7AB70B2303A154000484AD /* Football.swift in Sources */,
@@ -690,7 +705,6 @@
 				3EFEC88F20D5DA5400EC2A8E /* Admin_layout.swift in Sources */,
 				3E260B3921755D7E004D831B /* Wrestling.swift in Sources */,
 				3E260B3521755D33004D831B /* Girl's Basketball.swift in Sources */,
-				3E8D4F2A20C587A300844F3D /* Tutoring.swift in Sources */,
 				3E8D4F2820C5879500844F3D /* Guidance.swift in Sources */,
 				3E8D4F2620C5876C00844F3D /* Sports.swift in Sources */,
 				3E260B3721755D50004D831B /* Boy's Basketball.swift in Sources */,
@@ -700,7 +714,6 @@
 				3E2CAD5A20C56CF700A436EC /* Events.swift in Sources */,
 				3EFEC89120D68F1F00EC2A8E /* Admin_events.swift in Sources */,
 				3E8D4F2C20C587BD00844F3D /* Forms.swift in Sources */,
-				3E8D511420DAF09000A14932 /* register_tutor.swift in Sources */,
 				3E326565222E1C9600F8A7CD /* Boys_tf.swift in Sources */,
 				3E326569222E1CB300F8A7CD /* Baseball.swift in Sources */,
 				3EC658DB20D08C3100E6C545 /* Tennis.swift in Sources */,
@@ -713,7 +726,6 @@
 				3EC658E720D08CCC00E6C545 /* Girl's CC.swift in Sources */,
 				3E2CAD5620C56CF700A436EC /* AppDelegate.swift in Sources */,
 				3E260B3D21756038004D831B /* Girl's Swimming.swift in Sources */,
-				3ECB90D520D72A0D004E6DAF /* view_tutors.swift in Sources */,
 				3EB0F62322024B4100F3092A /* two_hour_dealy_schedule.swift in Sources */,
 				3EFEC88D20D5D99E00EC2A8E /* Admin_login.swift in Sources */,
 				3E2CAD5820C56CF700A436EC /* Home.swift in Sources */,

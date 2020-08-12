@@ -11,8 +11,29 @@ import Firebase
 
 class Forms: UIViewController {
 
+    /* @IBAction func download_schedule(_ sender: Any) {
+        
+        // let imageData = schedule.image!.pngData()
+        //let compresedImage = UIImage(data: imageData!)
+        UIImageWriteToSavedPhotosAlbum(compresedImage!, nil, nil, nil)
+        
+        let alert = UIAlertController(title: "Saved to Camera Roll", message: "Schedule has been saved", preferredStyle: .alert)
+        let okAction = UIAlertAction(title: "Ok", style: .default, handler: nil)
+        alert.addAction(okAction)
+        self.present(alert, animated: true, completion: nil)
+        }
     
-    @IBAction func Physical_form(_ sender: Any) {
+    @IBAction func download_map(_ sender: Any) {
+         let imageData = school_map.image!.pngData()
+         let compresedImage = UIImage(data: imageData!)
+        UIImageWriteToSavedPhotosAlbum(compresedImage!, nil, nil, nil)
+        
+        let alert = UIAlertController(title: "Saved to Camera Roll", message: "School Map has been saved", preferredStyle: .alert)
+        let okAction = UIAlertAction(title: "Ok", style: .default, handler: nil)
+        alert.addAction(okAction)
+        self.present(alert, animated: true, completion: nil)
+    }
+    @IBAction func download_form(_ sender: Any) {
         let ac = UIAlertController(title: "Go to Physical Form?", message: nil, preferredStyle: UIAlertController.Style.alert)
         let OKaction = UIAlertAction(title: "Yes", style: UIAlertAction.Style.default, handler: { action in
             if let url = URL(string: "http://metadot.vigoschools.org/public/19-20%20Physical.pdf") {
@@ -22,13 +43,13 @@ class Forms: UIViewController {
         let NOaction = UIAlertAction(title:"No", style: UIAlertAction.Style.default, handler:{ action in
             self.dismiss(animated: true, completion: nil)               })
         
-        
-        
         ac.addAction(OKaction)
         ac.addAction(NOaction)
         present(ac, animated: true, completion: nil)
         
     }
+ */
+    
    /* @IBAction func clubs(_ sender: Any) {
         Database.database().reference().child("Clubs").observe(.childAdded, with: { (snapshot) in
             print(snapshot)
