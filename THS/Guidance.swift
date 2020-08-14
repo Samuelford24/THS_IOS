@@ -12,7 +12,7 @@ class Guidance: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     
     
-let counselors = ["Mrs.Harden (A-Cl)", "Mr.Harden (Co-G)","Mrs.Trench (H-L)", "Mrs.Compton (M-Ri)", "Mrs.Tracy (Ro-Sn)","Mr.Waugh (So-Z)", "Mrs.Callahan (JAG)"]
+let counselors = ["Mrs.Harden (A-Cl)", "Mr.Harden (Co-G)","Mrs.Trench (H-L)", "Mrs.Compton (M-Q)", "Mrs.Tracy (Ro-Ss)","Mr.Waugh (St-Z)"]
     @IBOutlet weak var tableview_guidance: UITableView!
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return counselors.count
