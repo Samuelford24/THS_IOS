@@ -11,6 +11,30 @@ import Firebase
 
 class Forms: UIViewController {
 
+    @IBAction func downloadSchedule(_ sender: Any) {
+        let scheduleImage = #imageLiteral(resourceName: "Schedule")
+        let imageData = scheduleImage.pngData()
+               let compresedImage = UIImage(data: imageData!)
+               UIImageWriteToSavedPhotosAlbum(compresedImage!, nil, nil, nil)
+               
+               let alert = UIAlertController(title: "Saved to Camera Roll", message: "The schedule has been saved", preferredStyle: .alert)
+               let okAction = UIAlertAction(title: "Ok", style: .default, handler: nil)
+               alert.addAction(okAction)
+               self.present(alert, animated: true, completion: nil)
+           
+    }
+    @IBAction func downloadSchoolMap(_ sender: Any) {
+        let mapImage=#imageLiteral(resourceName: "school_map")
+         let imageData = mapImage.pngData()
+    let compresedImage = UIImage(data: imageData!)
+                  UIImageWriteToSavedPhotosAlbum(compresedImage!, nil, nil, nil)
+                  
+                  let alert = UIAlertController(title: "Saved to Camera Roll", message: "School Map has been saved", preferredStyle: .alert)
+                  let okAction = UIAlertAction(title: "Ok", style: .default, handler: nil)
+                  alert.addAction(okAction)
+                  self.present(alert, animated: true, completion: nil)
+              
+    }
     /* @IBAction func download_schedule(_ sender: Any) {
         
         // let imageData = schedule.image!.pngData()

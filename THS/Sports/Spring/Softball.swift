@@ -5,7 +5,7 @@
 //  Created by Samuel Ford on 3/4/19.
 //  Copyright © 2019 Samuel Ford. All rights reserved.
 //
-
+/*
 import UIKit
 import Firebase
 class Softball:  UIViewController, UITableViewDataSource, UITableViewDelegate {
@@ -50,4 +50,4 @@ class Softball:  UIViewController, UITableViewDataSource, UITableViewDelegate {
         // Dispose of any resources that can be recreated.
     }
 }
-
+*/

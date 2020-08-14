@@ -15,7 +15,6 @@
 		3E260B3F21756076004D831B /* Boy's Swimming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E260B3E21756076004D831B /* Boy's Swimming.swift */; };
 		3E2CAD5620C56CF700A436EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2CAD5520C56CF700A436EC /* AppDelegate.swift */; };
 		3E2CAD5820C56CF700A436EC /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2CAD5720C56CF700A436EC /* Home.swift */; };
-		3E2CAD5A20C56CF700A436EC /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2CAD5920C56CF700A436EC /* Events.swift */; };
 		3E2CAD5D20C56CF700A436EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E2CAD5B20C56CF700A436EC /* Main.storyboard */; };
 		3E2CAD6220C56CF800A436EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E2CAD6020C56CF800A436EC /* LaunchScreen.storyboard */; };
 		3E2CAD6D20C56CF800A436EC /* THSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2CAD6C20C56CF800A436EC /* THSTests.swift */; };
@@ -34,7 +33,6 @@
 		3E7AB70B2303A154000484AD /* Football.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7AB70A2303A154000484AD /* Football.swift */; };
 		3E865E3120D936BB00BC4743 /* Admin_announcements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E865E3020D936BB00BC4743 /* Admin_announcements.swift */; };
 		3E865E3320D93FBF00BC4743 /* Admin_sports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E865E3220D93FBF00BC4743 /* Admin_sports.swift */; };
-		3E865E3520D945E800BC4743 /* Admin_Dr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E865E3420D945E800BC4743 /* Admin_Dr.swift */; };
 		3E8D4F2420C5874600844F3D /* Announcements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8D4F2320C5874600844F3D /* Announcements.swift */; };
 		3E8D4F2620C5876C00844F3D /* Sports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8D4F2520C5876C00844F3D /* Sports.swift */; };
 		3E8D4F2820C5879500844F3D /* Guidance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8D4F2720C5879500844F3D /* Guidance.swift */; };
@@ -50,7 +48,6 @@
 		3EC658E720D08CCC00E6C545 /* Girl's CC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC658E620D08CCC00E6C545 /* Girl's CC.swift */; };
 		3EFEC88D20D5D99E00EC2A8E /* Admin_login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFEC88C20D5D99E00EC2A8E /* Admin_login.swift */; };
 		3EFEC88F20D5DA5400EC2A8E /* Admin_layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFEC88E20D5DA5400EC2A8E /* Admin_layout.swift */; };
-		3EFEC89120D68F1F00EC2A8E /* Admin_events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFEC89020D68F1F00EC2A8E /* Admin_events.swift */; };
 		A648535EE2FF38F59877B11D /* libPods-THS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2801792899AFB818419F0A82 /* libPods-THS.a */; settings = {ATTRIBUTES = (Required, ); }; };
 		BFF439956E30FB4FCDFC6E54 /* libPods-THSUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF2EC4026920FC9FF9877D0 /* libPods-THSUITests.a */; };
 		D403FAB1ADE1728AF6FA7988 /* libPods-THS-OneSignalNotificationServiceExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3890D8B39A1993C8435F0D65 /* libPods-THS-OneSignalNotificationServiceExtension.a */; };
@@ -127,7 +124,6 @@
 		3E2CAD5220C56CF700A436EC /* THS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E2CAD5520C56CF700A436EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E2CAD5720C56CF700A436EC /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
-		3E2CAD5920C56CF700A436EC /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
 		3E2CAD5C20C56CF700A436EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E2CAD6120C56CF800A436EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E2CAD6320C56CF800A436EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -153,7 +149,6 @@
 		3E7AB70A2303A154000484AD /* Football.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Football.swift; sourceTree = "<group>"; };
 		3E865E3020D936BB00BC4743 /* Admin_announcements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Admin_announcements.swift; sourceTree = "<group>"; };
 		3E865E3220D93FBF00BC4743 /* Admin_sports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Admin_sports.swift; sourceTree = "<group>"; };
-		3E865E3420D945E800BC4743 /* Admin_Dr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Admin_Dr.swift; sourceTree = "<group>"; };
 		3E8D4F2320C5874600844F3D /* Announcements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Announcements.swift; sourceTree = "<group>"; };
 		3E8D4F2520C5876C00844F3D /* Sports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sports.swift; sourceTree = "<group>"; };
 		3E8D4F2720C5879500844F3D /* Guidance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guidance.swift; sourceTree = "<group>"; };
@@ -170,7 +165,6 @@
 		3ED28662213872B600694E94 /* THS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = THS.entitlements; sourceTree = "<group>"; };
 		3EFEC88C20D5D99E00EC2A8E /* Admin_login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Admin_login.swift; sourceTree = "<group>"; };
 		3EFEC88E20D5DA5400EC2A8E /* Admin_layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Admin_layout.swift; sourceTree = "<group>"; };
-		3EFEC89020D68F1F00EC2A8E /* Admin_events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Admin_events.swift; sourceTree = "<group>"; };
 		655EF5D5A18442D61A0BAC59 /* libPods-THSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-THSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC69E90864310AFC70D9E33F /* Pods-THSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-THSTests/Pods-THSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C657301F547603BF9E47ECD7 /* Pods-THSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-THSUITests/Pods-THSUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -247,13 +241,10 @@
 				3E2CAD5720C56CF700A436EC /* Home.swift */,
 				3EB0F62222024B4100F3092A /* two_hour_dealy_schedule.swift */,
 				3E865E3020D936BB00BC4743 /* Admin_announcements.swift */,
-				3E865E3420D945E800BC4743 /* Admin_Dr.swift */,
-				3E2CAD5920C56CF700A436EC /* Events.swift */,
 				3EFEC88E20D5DA5400EC2A8E /* Admin_layout.swift */,
 				3EFEC88C20D5D99E00EC2A8E /* Admin_login.swift */,
 				3E8D4F2320C5874600844F3D /* Announcements.swift */,
 				3E865E3220D93FBF00BC4743 /* Admin_sports.swift */,
-				3EFEC89020D68F1F00EC2A8E /* Admin_events.swift */,
 				3E8D4F2520C5876C00844F3D /* Sports.swift */,
 				3E9EFF7C21120EA3005CF1B1 /* School_map.swift */,
 				3E9EFF7E21124CA6005CF1B1 /* Schedule.swift */,
@@ -585,11 +576,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-THS-OneSignalNotificationServiceExtension/Pods-THS-OneSignalNotificationServiceExtension-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInAppMessaging/InAppMessagingResources.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++/gRPCCertificates-Cpp.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/InAppMessagingResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates-Cpp.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -675,11 +666,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-THS/Pods-THS-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInAppMessaging/InAppMessagingResources.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++/gRPCCertificates-Cpp.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/InAppMessagingResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates-Cpp.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -711,15 +702,12 @@
 				3EC658DD20D08C4600E6C545 /* Boy's Soccer.swift in Sources */,
 				3E260B3F21756076004D831B /* Boy's Swimming.swift in Sources */,
 				3E9EFF7D21120EA3005CF1B1 /* School_map.swift in Sources */,
-				3E2CAD5A20C56CF700A436EC /* Events.swift in Sources */,
-				3EFEC89120D68F1F00EC2A8E /* Admin_events.swift in Sources */,
 				3E8D4F2C20C587BD00844F3D /* Forms.swift in Sources */,
 				3E326565222E1C9600F8A7CD /* Boys_tf.swift in Sources */,
 				3E326569222E1CB300F8A7CD /* Baseball.swift in Sources */,
 				3EC658DB20D08C3100E6C545 /* Tennis.swift in Sources */,
 				3E8D4F2E20C5881600844F3D /* Settings.swift in Sources */,
 				3E865E3320D93FBF00BC4743 /* Admin_sports.swift in Sources */,
-				3E865E3520D945E800BC4743 /* Admin_Dr.swift in Sources */,
 				3E32656F222E1D2100F8A7CD /* Boys_golf.swift in Sources */,
 				3E326567222E1CA300F8A7CD /* Girls_tf.swift in Sources */,
 				3E34206B20D05F8D002828FA /* Golf.swift in Sources */,

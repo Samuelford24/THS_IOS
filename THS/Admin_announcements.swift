@@ -11,11 +11,12 @@ import Firebase
 
 class Admin_announcements: UIViewController {
 
-    @IBOutlet weak var announcement_text: UITextField!
-    var ref : DatabaseReference!
+  
+    @IBOutlet weak var announcementText: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-ref = Database.database().reference()
+
         // Do any additional setup after loading the view.
     }
     
@@ -27,15 +28,28 @@ ref = Database.database().reference()
     }
     
     @IBAction func send_announcements(_ sender: Any) {
-        let announce = announcement_text.text
-        ref?.child("Announcements").childByAutoId().setValue(announce)
-        let ac = UIAlertController(title: "Succesfully uploaded", message: nil, preferredStyle: UIAlertController.Style.alert)
-        let OKaction = UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: { action in
-            self.dismiss(animated: true, completion: nil)
-            
-            })
-        ac.addAction(OKaction)
-        present(ac, animated: true, completion: nil)
+        Firestore.firestore().collection("Announcements").addDocument(data: ["announcement":announcementText.text]) {  err  in
+                          
+                           if let err = err {
+                                let ac = UIAlertController(title: "Upload Error", message:"Please try again", preferredStyle: UIAlertController.Style.alert)
+                                     let OKaction = UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: { action in
+                                         ac.dismiss(animated: true, completion: nil)               })
+                                     
+                                     
+                                     
+                                     ac.addAction(OKaction)
+                               self.present(ac, animated: true, completion: nil)
+                           } else {
+                                 let ac = UIAlertController(title: "Successfully added", message:nil, preferredStyle: UIAlertController.Style.alert)
+                                     let OKaction = UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: { action in
+                                         ac.dismiss(animated: true, completion: nil)               })
+                                     
+                                     
+                                     
+                                     ac.addAction(OKaction)
+                               self.present(ac, animated: true, completion: nil)
+                           }
+                          }
 }
 }
     /*

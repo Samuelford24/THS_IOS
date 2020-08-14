@@ -6,14 +6,14 @@ target 'THS' do
   #use_frameworks!
 
   # Pods for THS
-pod 'OneSignal', '>= 2.6.2', '< 3.0'
-pod 'Firebase/Database'
-pod 'Firebase/Core'
-pod 'Firebase/InAppMessagingDisplay'
+pod 'OneSignal', '>= 2.11.2', '< 3.0'
+pod 'Firebase/Analytics'
+pod 'Firebase/Firestore'
+
 
 
 target 'OneSignalNotificationServiceExtension' do
-  pod 'OneSignal', '>= 2.6.2', '< 3.0'
+  pod 'OneSignal', '>= 2.11.2', '< 3.0'
 end
 
   target 'THSTests' do

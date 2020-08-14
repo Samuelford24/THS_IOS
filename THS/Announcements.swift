@@ -12,24 +12,27 @@ import Firebase
 class Announcements: UIViewController, UITableViewDelegate, UITableViewDataSource {
     var array = [String]()
     @IBOutlet weak var Tableview_announcements: UITableView!
-    var ref : DatabaseReference!
-    var handle: DatabaseHandle!
-    
+   
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        ref = Database.database().reference()
-        handle = ref?.child("Announcements").observe(.childAdded, with: { (snapshot) in
-            if let item = snapshot.value as? String {
-                self.array.append(item)
-                self.Tableview_announcements.reloadData()
-                
-            }
-            
-        })
-        
-      
-    }
+      Firestore.firestore().collection("Announcements").addSnapshotListener(){ querySnapshot, error in
+               guard let snapshot = querySnapshot else {
+                        print("Error retreiving snapshots \(error!)")
+                        return
+                    }
+                   self.array.removeAll()
+                               for document in snapshot.documents{
+                                   self.array.append(document.get("announcement") as! String)
+                               }
+                           
+                      
+                       self.Tableview_announcements.reloadData()
+                       //let bottomOffset = CGPoint(x: 0, y: self.Tableview_home.contentSize.height - self.Tableview_home.frame.size.height)
+                       //self.Tableview_home.setContentOffset(bottomOffset, animated: true)
+                   }
+                   
+               }
    /* func createPdfFromTableView()
     {
         let priorBounds: CGRect = self.Tableview_announcements.bounds

@@ -16,26 +16,32 @@ class Home: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     var array1 = [String]()
     @IBOutlet weak var Tableview_home: UITableView!
-    var ref1 : DatabaseReference!
-    var handle1: DatabaseHandle!
+   
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        ref1 = Database.database().reference()
-        handle1 = ref1?.child("Delays").observe(.childAdded, with: { (snapshot) in
-            if let item = snapshot.value as? String {
-                self.array1.append(item)
+        Firestore.firestore().collection("Delays").addSnapshotListener(){ querySnapshot, error in
+        guard let snapshot = querySnapshot else {
+                 print("Error retreiving snapshots \(error!)")
+                 return
+             }
+            self.array1.removeAll()
+                        for document in snapshot.documents{
+                            self.array1.append(document.get("delay") as! String)
+                        }
+                    
+               
                 self.Tableview_home.reloadData()
                 //let bottomOffset = CGPoint(x: 0, y: self.Tableview_home.contentSize.height - self.Tableview_home.frame.size.height)
                 //self.Tableview_home.setContentOffset(bottomOffset, animated: true)
             }
             
-        })
+        }
         
         
-    }
+    
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return array1.count

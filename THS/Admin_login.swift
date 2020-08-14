@@ -7,10 +7,10 @@
 //
 
 import UIKit
-
+import Firebase
 class Admin_login: UIViewController {
    
-    @IBOutlet weak var EmailAddressText: UITextField!
+  
     
     @IBOutlet weak var PasswordText: UITextField!
     
@@ -46,29 +46,38 @@ class Admin_login: UIViewController {
 **/
    
     @IBAction func Login(_ sender: Any) {
-    
-    if((EmailAddressText.text?.contains("Admin"))! && (PasswordText.text?.contains("T_H_S1"))!)
-        {
+             Firestore.firestore().collection("Admin").document("Password").getDocument()
+          { document, error in
+        
+              guard let snapshot = document else {
+                  print("Error retreiving snapshots \(error!)")
+                  return
+              }
+              
+              let v = document?.get("password") as? String
+              
+              if(self.PasswordText.text == v){
+                let main = UIStoryboard(name:"Main", bundle: nil)
+                       let gotoAdmin = main.instantiateViewController(withIdentifier: "AdminVC")
+                        self.present(gotoAdmin, animated: true, completion: nil)
+              }
+              else{
+                  let ac = UIAlertController(title: "Wrong Password", message:nil, preferredStyle: UIAlertController.Style.alert)
+                        let OKaction = UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: { action in
+                            ac.dismiss(animated: true, completion: nil)               })
+                        
+                        
+                        
+                        ac.addAction(OKaction)
+                  self.present(ac, animated: true, completion: nil)
+              }
+        
             
-            NSLog("Login Successfully...")
-            let main = UIStoryboard(name:"Main", bundle: nil)
-           let gotoAdmin = main.instantiateViewController(withIdentifier: "AdminVC")
-            self.present(gotoAdmin, animated: true, completion: nil)
-            
-    }
-            else {
-                let ac = UIAlertController(title: "Login Failed!!", message: nil, preferredStyle: UIAlertController.Style.alert)
-                let OKaction = UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: { action in
-                    self.dismiss(animated: true, completion: nil)
-                    
-                })
-                ac.addAction(OKaction)
-                present(ac, animated: true, completion: nil)
-            }
+  
             
         }
     
 }
  
-
+}
 

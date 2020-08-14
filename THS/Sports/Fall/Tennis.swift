@@ -5,7 +5,7 @@
 //  Created by Samuel Ford on 6/12/18.
 //  Copyright © 2018 Samuel Ford. All rights reserved.
 //
-/*
+
 import UIKit
 import Firebase
 
@@ -14,28 +14,30 @@ class Tennis: UIViewController, UITableViewDataSource, UITableViewDelegate {
     @IBOutlet weak var tableview_tennis: UITableView!
     
     
-    var ref : DatabaseReference!
-    var handle: DatabaseHandle!
-    
+  
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        ref = Database.database().reference()
-        handle = ref?.child("Boys_tennis").observe(.childAdded, with: { (snapshot) in
-            if let item = snapshot.value as? String {
-                self.array.append(item)
-                self.tableview_tennis.reloadData()
-                let bottomOffset = CGPoint(x: 0, y: self.tableview_tennis.contentSize.height - self.tableview_tennis.frame.size.height)
-                self.tableview_tennis.setContentOffset(bottomOffset, animated: false)
-            }
-            
-        })
-        
-        
-    }
+        Firestore.firestore().collection("VolleyBall").addSnapshotListener(){ querySnapshot, error in
+                          guard let snapshot = querySnapshot else {
+                                   print("Error retreiving snapshots \(error!)")
+                                   return
+                               }
+                              self.array.removeAll()
+                                          for document in snapshot.documents{
+                                              self.array.append(document.get("game") as! String)
+                                          }
+                                      
+                                 
+                                  self.tableview_tennis.reloadData()
+                                  //let bottomOffset = CGPoint(x: 0, y: self.Tableview_home.contentSize.height - self.Tableview_home.frame.size.height)
+                                  //self.Tableview_home.setContentOffset(bottomOffset, animated: true)
+                              }
+                              
+                          }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return array.count
@@ -55,5 +57,4 @@ class Tennis: UIViewController, UITableViewDataSource, UITableViewDelegate {
          self.performSegue(withIdentifier: "seque_tennis", sender: nil)
     }
 }
-*/
 
